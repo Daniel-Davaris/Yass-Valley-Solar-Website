@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge,chrome=1">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' />
+
+    <title>Yass Valley Solar</title>
+    <!-- Meta Data decriptions -->
+    <meta name="description" content="Yass Valley Solar" />
+    <meta name="keywords" content="Yass Valley Solar, yass valley solar, solar, offgrid, energy, yass valley solar, battery storage" />
+    <meta name="author" content="Yass Valley Solar" />
+    <link rel="shortcut icon" href="{{ url_for('static',filename='media/favicon.png') }}">
+    <!-- link to local saved boostrap to solve boostrap CDN connection issues -->
+    <link rel="stylesheet" href="{{url_for('static', filename='boot/bs_css/bootstrap.css')}}">
+    
+    <!-- accross every page -->
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/style-navbar.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/style-fonts.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/style-search-bar.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/style-media-queries.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/style-footer.css') }}">
+
+    <!-- for different pages -->
+
+    <!-- homepage -->
+    <!-- off grid -->
+        {% if request.endpoint == 'off_grid'  %}
+            <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/style-off_grid-content.css') }}"> 
+        {% else %}
+           
+     <!-- Solar Systems page -->
+            {% if request.endpoint == 'solar_systems'  %}
+                <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/style-solar_systems-content.css')}}">
+            {% else %}
+                {% if request.endpoint == 'our_team'  %}
+                    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/style-about_us-content.css') }}"> 
+                {% else %}
+                    {% if request.endpoint == 'our_customers'  %}
+                        <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/style-customers.css') }}">
+                    {% else %}
+                        {% if request.endpoint == 'contact_us'  %}
+                            <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/style-contact_us-content.css') }}">
+                            {% else %}
+                                <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/style-homepage-slider.css')}}">
+                                <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/style-newhome.css')}}">
+                            {% endif %}
+                    {% endif %}
+                {% endif %}
+            {% endif %}
+        {% endif %}
+    
+      
+       
+
+    <!-- <link rel="stylesheet" type="text/css" href="css/default.css"> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+</head>
+
+<body>

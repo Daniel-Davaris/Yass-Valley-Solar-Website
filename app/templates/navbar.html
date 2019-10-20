@@ -1,0 +1,93 @@
+{% if request.endpoint == 'index'  %}
+    <div class="nav-container clr grad">
+{% else %}
+    <div class="nav-container clr2 grad">
+{% endif %}
+    <div class="wrapper-1">
+        <div id="sb-search" class="sb-search">
+            <form>
+                <input class="sb-search-input" placeholder="Search .." type="search" value="" name="search" id="search">
+                <input class="sb-search-submit" type="submit" value="">
+                <span class="sb-icon-search"></span>
+            </form>
+        </div>
+    </div>
+    <a class="navbar-brand" href="{{url_for('index') }}"><img class="my_logo" src="{{url_for('static', filename='media/new-logo-t.png')}}"></a>
+    <div class="bar2"></div>
+    <nav class="navbar navbar-expand-xl navbar-dark " id="navbar">
+        <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="row">
+                <!-- <div id="chill" class=""> -->
+                <ul class="navbar-nav ml-auto mr-auto">
+
+
+
+                    {% if current_user.is_anonymous %}
+                    <!-- <li class="nav-item active">
+                                <a class="nav-link" href="index">My Posts <span class="sr-only">(current)</span></a> 
+                            </li> -->
+                    {% else %}
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index">My Posts <span class="sr-only">(current)</span></a>
+                    </li>
+                    {% endif %}
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('index') }}">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('off_grid') }}">Off Grid </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('solar_systems') }}">Solar Systems </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('our_team') }}">Our Team</a>
+                    </li>
+                    <!-- </ul>
+                    </div> -->
+
+                    <!-- <div id="chill" class=""> -->
+                    <!-- <ul class="navbar-nav ml-auto mr-auto"> -->
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('blog') }}">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('our_customers') }}">Our Customers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('contact_us') }}">Contact Us </a>
+                    </li>
+
+
+                    {% if current_user.is_anonymous %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('login') }}">Login</a>
+                    </li>
+                    {% else %}
+                    <!-- <li class="nav-item">
+                                    <a class="nav-link" href="{{ url_for('user', username=current_user.username) }}">Profile</a>
+                            </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ url_for('logout') }}">Logout</a>
+                    </li>
+                    {% endif %}
+
+                </ul>
+                <!-- </div> -->
+
+
+            </div>
+
+        </div>
+    </nav>
+
+</div>

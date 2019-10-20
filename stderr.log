@@ -1,0 +1,67 @@
+2019-10-15 15:22:06.469925 [565978] Child process with pid: 565993 was killed by signal: 15, core dump: 0
+2019-10-15 15:22:06.473679 [565978] Child process with pid: 565997 was killed by signal: 15, core dump: 0
+2019-10-15 18:08:57.597561 [729516] Reached max children process limit: 6, extra: 2, current: 8, busy: 7, please increase LSAPI_CHILDREN.
+2019-10-15 18:08:57.697946 [729516] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-10-15 18:08:57.798866 [729516] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-10-15 18:08:57.899186 [729516] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-10-15 18:08:57.999518 [729516] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-10-15 18:08:58.099824 [729516] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-10-15 18:08:58.200130 [729516] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-10-15 18:08:58.300450 [729516] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-10-15 18:08:58.400825 [729516] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-10-15 18:08:58.501180 [729516] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-10-15 18:08:58.601551 [729516] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-10-15 18:08:58.701940 [729516] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-10-15 18:08:58.802333 [729516] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-10-15 18:08:58.902685 [729516] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-10-15 18:08:59.003026 [729516] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-10-15 18:08:59.103333 [729516] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-10-15 18:08:59.203825 [729516] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-10-15 18:08:59.304604 [729516] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-10-15 18:08:59.404992 [729516] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-10-15 18:08:59.505206 [729516] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-10-15 18:08:59.605546 [729516] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-10-15 18:08:59.723101 [729516] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-10-15 18:08:59.823395 [729516] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-10-15 18:08:59.923600 [729516] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-10-15 18:09:00.023953 [729516] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-10-15 18:09:00.124181 [729516] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-10-15 18:09:00.224484 [729516] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-10-15 18:09:00.326223 [729516] Reached max children process limit: 6, extra: 2, current: 8, busy: 7, please increase LSAPI_CHILDREN.
+2019-10-16 15:58:02.470698 [916566] Child process with pid: 917024 was killed by signal: 15, core dump: 0
+OSError: LSAPI: File error
+2019-10-18 16:01:28.029169 [634391] Child process with pid: 634438 was killed by signal: 15, core dump: 0
+2019-10-18 20:39:33.925609 [1002429] Child process with pid: 1004819 was killed by signal: 15, core dump: 0
+2019-10-18 20:39:33.946987 [1002429] Child process with pid: 1004772 was killed by signal: 15, core dump: 0
+OSError: LSAPI: File error
+OSError: LSAPI: File error
+OSError: LSAPI: File error
+OSError: LSAPI: File error
+2019-10-19 21:17:43.004251 [188673] Child process with pid: 188689 was killed by signal: 15, core dump: 0
+2019-10-20 06:58:15.780481 [644484] Reached max children process limit: 6, extra: 2, current: 8, busy: 7, please increase LSAPI_CHILDREN.
+2019-10-20 06:58:15.899111 [644484] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-10-20 06:58:15.999941 [644484] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-10-20 06:58:16.100312 [644484] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-10-20 06:58:16.200711 [644484] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-10-20 06:58:16.301090 [644484] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-10-20 06:58:16.401497 [644484] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-10-20 06:58:16.501811 [644484] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-10-20 06:58:16.602159 [644484] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-10-20 06:58:16.702497 [644484] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-10-20 06:58:16.802833 [644484] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-10-20 06:58:16.903112 [644484] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-10-20 06:58:17.003431 [644484] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-10-20 06:58:17.103692 [644484] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-10-20 06:58:17.204096 [644484] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-10-20 06:58:17.304566 [644484] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-10-20 06:58:17.404834 [644484] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-10-20 06:58:17.505114 [644484] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-10-20 06:58:17.605596 [644484] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-10-20 06:58:17.705868 [644484] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-10-20 06:58:17.806249 [644484] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-10-20 06:58:17.923042 [644484] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-10-20 06:58:18.023323 [644484] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-10-20 06:58:18.123603 [644484] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-10-20 06:58:18.223880 [644484] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-10-20 06:58:18.324152 [644484] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-10-20 06:58:18.345822 [644484] Reached max children process limit: 6, extra: 2, current: 8, busy: 7, please increase LSAPI_CHILDREN.

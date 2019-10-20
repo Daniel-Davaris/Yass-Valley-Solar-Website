@@ -1,0 +1,169 @@
+@font-face {
+    font-family: 'truenoregular';
+    src: url('fonts/boot/truenorg-webfont.woff2') format('woff2'),
+         url('fonts/boot/truenorg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'covesbold';
+    src: url('fonts/coves/coves_bold-webfont.woff2') format('woff2'),
+         url('fonts/coves/coves_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'coveslight';
+    src: url('fonts/coves/coves_light-webfont.woff2') format('woff2'),
+         url('fonts/coves/coves_light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'pier_sansblack';
+    src: url('fonts/PierSans/piersans-black-webfont.woff2') format('woff2'),
+         url('fonts/PierSans/piersans-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'pier_sansblack_italic';
+    src: url('fonts/PierSans/piersans-blackitalic-webfont.woff2') format('woff2'),
+         url('fonts/PierSans/piersans-blackitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'pier_sansbold';
+    src: url('fonts/PierSans/piersans-bold-webfont.woff2') format('woff2'),
+         url('fonts/PierSans/piersans-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'pier_sansbold_italic';
+    src: url('fonts/PierSans/piersans-bolditalic-webfont.woff2') format('woff2'),
+         url('fonts/PierSans/piersans-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'pier_sansitalic';
+    src: url('fonts/PierSans/piersans-italic-webfont.woff2') format('woff2'),
+         url('fonts/PierSans/piersans-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'pier_sanslight';
+    src: url('fonts/PierSans/piersans-light-webfont.woff2') format('woff2'),
+         url('fonts/PierSans/piersans-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'pier_sanslight_italic';
+    src: url('fonts/PierSans/piersans-lightitalic-webfont.woff2') format('woff2'),
+         url('fonts/PierSans/piersans-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'pier_sansmedium';
+    src: url('fonts/PierSans/piersans-medium-webfont.woff2') format('woff2'),
+         url('fonts/PierSans/piersans-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'pier_sansmedium_italic';
+    src: url('fonts/PierSans/piersans-mediumitalic-webfont.woff2') format('woff2'),
+         url('fonts/PierSans/piersans-mediumitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'pier_sansregular';
+    src: url('fonts/PierSans/piersans-regular-webfont.woff2') format('woff2'),
+         url('fonts/PierSans/piersans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'inter-bureauregular';
+    src: url('fonts/inter-bureau/interbureau-webfont.woff2') format('woff2'),
+         url('fonts/inter-bureau/interbureau-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+} 
+
+/* @font-face {
+    font-family: 'jervinhoregular';
+    src: url('fonts/jervinho/jervinhoregular-webfont.woff2') format('woff2'),
+         url('fonts/jervinho/jervinhoregular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+} */
+
+
+/* @font-face {
+    font-family: 'montserratregular';
+    src: url('fonts/montserrat/montserrat-regular-webfont.woff2') format('woff2'),
+         url('fonts/montserrat/montserrat-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+} */
+/* @font-face kit by Fonts2u (https://fonts2u.com) */ 
+/* @font-face {
+    font-family:"Decker Bold";
+    src:url("fonts/Decker_Bold/DeckerB.eot?") format("eot"),
+    url("fonts/Decker_Bold/DeckerB.woff") format("woff"),
+    url("fonts/Decker_Bold/DeckerB.ttf") format("truetype"),
+    url("fonts/Decker_Bold/DeckerB.svg#") format("svg");
+    font-weight:normal;font-style:normal;} */
+
+/* @font-face {
+    font-family: 'merocheregular';
+    src: url('fonts/MEROCHE/meroche-webfont.woff2') format('woff2'),
+         url('fonts/MEROCHE/meroche-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+} */
+
+/* @font-face {
+    font-family: "MEROCHE";
+    src: url("css/fonts/MEROCHE/MEROCHE.eot");
+    url("css/fonts/MEROCHE/MEROCHE.ttf") format("ttf"),
+    url("css/fonts/MEROCHE/meroche-webfont.ttf") format("ttf"),
+    url("css/fonts/MEROCHE/MEROCHE.woff") format("woff"),
+    url("css/fonts/MEROCHE/MEROCHE.otf") format("opentype"),
+    url("css/fonts/MEROCHE/MEROCHE.svg#filename") format("svg");
+} */

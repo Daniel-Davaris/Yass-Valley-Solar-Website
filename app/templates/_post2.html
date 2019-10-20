@@ -1,0 +1,27 @@
+
+<table style="padding:1px; margin-top:50px;" class="table table-hover">
+    
+    <tr style="border:2px solid rgb(145, 145, 145);">
+        <h1 style="font-size:15px">Blogpost: <span style="color:rgb(138, 193, 93)">{{ post.lol }}</span></h1>
+        <td style="margin-top:px;">
+            
+            <a style="padding-bottom:px;" href="{{ url_for('user', username=post.author.username) }}">
+                
+                <img style="border-radius: 55px; padding:px;" src="{{ post.author.avatar(70) }}" />
+
+            </a>
+        </td>
+        <td style="font-size:12px; margin-top:100px; ">
+            <a style="font-size: 15px;"ref="{{ url_for('user', username=post.author.username) }}">
+                {{ post.author.username }} 
+                <h1 style="font-size:10px;"> Yass Valley Solar Managing Director </h1>
+                
+                
+            </a>
+             
+            <br>
+            <p style="color:rgb(95, 95, 95); ">{{ post.body }}</p>
+            <br>
+        </td>
+    </tr>
+</table>
