@@ -27,15 +27,13 @@
 
 
 
-                    {% if current_user.is_anonymous %}
-                    <!-- <li class="nav-item active">
-                                <a class="nav-link" href="index">My Posts <span class="sr-only">(current)</span></a> 
-                            </li> -->
-                    {% else %}
+                {% if current_user.is_anonymous %}  
+                  
+                {% else %}
                     <li class="nav-item active">
-                        <a class="nav-link" href="index">My Posts <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="{{ url_for('my_posts') }}">My Posts <span class="sr-only">(current)</span></a>
                     </li>
-                    {% endif %}
+                {% endif %}
 
 
                     <li class="nav-item">
