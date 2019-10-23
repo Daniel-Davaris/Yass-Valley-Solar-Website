@@ -18,4 +18,4 @@ class Config(object):
     ADMINS = ['danieldavaris@outlook.com.au']
     POSTS_PER_PAGE = 25
     POSTS_PER_PAGE2 = 1
-    DEBUG = True
+    
