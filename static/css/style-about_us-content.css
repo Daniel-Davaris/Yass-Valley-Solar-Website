@@ -1,0 +1,55 @@
+.body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.main{
+    overflow-y: hidden;
+    
+}
+.top_bit{
+    padding-top:100px;
+    color: white !important;
+}
+.round{
+    width:120px;
+    height:120px;
+    border-radius:100px;
+    border: 2px solid black;
+    margin-left:100px;
+}
+
+.about_about{
+    color:white;
+}
+
+.about_bng{
+    background-image: url("../media/about_bng.jpg");
+    background-size:cover;
+    /* margin-top:100px; */
+    /* background-size:100%; */
+    /* height:102vh; */
+    width:100%;
+    /* width:110%; */
+    /* left:0; */
+    /* margin-left:-40px; */
+    overflow-x: hidden;
+    /* margin-right:0px !important;  */
+    
+}
+
+.trans{
+    background-color: transparent !important;
+}
+
+.sub{
+    color: rgb(0, 0, 0);
+    font-size:20px !important;
+}
+
+.my-2{
+    color:#abd04d;
+    border:2px solid #abd04d;
+}
+.t{
+    font-size:20px !important;
+}

@@ -1,0 +1,115 @@
+{% extends "base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+{% block app_content %}
+
+<div class="about_bng">
+    <div class="trans container jumbotron center-block">
+        <h1 class=" t trans lead center-block top_bit top_bit jumbotron-heading">Our Story</h1>
+        <hr class="my-2">
+        <div class="trans row ">
+            <div class="trans col-md">
+                <p class="trans about_about lead min">
+                    Growing up and working in an local electrical business Tim developed a particularly fascination with
+                    solar and renewable energy from a young age. This planted a seed which grew and in 2013 Tim founded
+                    Ygrene Energy with the vision of providing the same honest and reliable service to the solar
+                    industry that family electrical business had been providing to their customers for many years.
+                    <br>
+                    <br>
+                    Tim focused on providing the best service possible and found a particular niche in off-grid power
+                    systems were he found significant room for improvement on the traditional installations that were
+                    being installed while at the time as well as providing commercial and residential solar systems in
+                    the area.
+                    <br>
+                    <br>
+                    Today Ygrene Energy is a thriving business completing a wide array of solar projects and work
+                    scopes.
+                    Throughout the evolution of the company one thing has remained the constant - the passion and
+                    commitment that each team member has to provide the same honest and reliable service that was
+                    instilled into our company culture many years ago.
+
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container jumbotron center-block">
+        <h1 class=" t sub lead center-block jumbotron-heading">Our Team</h1>
+        <hr class="my-2">
+        <div class="row ">
+            <div class="col-4">
+                <img class="round" src="{{url_for('static', filename='media/.jpg') }}" />
+            </div>
+            <div class="col-8">
+                <h1 style="font-size:30px;" class="display-4">Tim Davaris </h1>
+                <h4>Founder and business development</h2>
+            </div>
+        </div>
+
+        <div class="row ">
+            <div class="col-4">
+                <img class="round" src="{{url_for('static', filename='media/.jpg') }}" />
+            </div>
+            <div class="col-8">
+                <h1 style="font-size:30px;" class="display-4">Abel Davaris </h1>
+                <h4>General Manager and Sales </h2>
+            </div>
+        </div>
+
+        <div class="row ">
+            <div class="col-4">
+                <img class="round" src="{{url_for('static', filename='media/.jpg') }}" />
+            </div>
+            <div class="col-8">
+                <h1 style="font-size:30px;" class="display-4">Ronnie Hati </h1>
+                <h4>Electrical Engineer </h2>
+            </div>
+        </div>
+
+        <div class="row ">
+            <div class="col-4">
+                <img class="round" src="{{url_for('static', filename='media/.jpg') }}" />
+            </div>
+            <div class="col-8">
+                <h1 style="font-size:30px;" class="display-4">Noah Davaris </h1>
+                <h4>Project Manager </h2>
+            </div>
+        </div>
+
+        <div class="row ">
+            <div class="col-4">
+                <img class="round" src="{{url_for('static', filename='media/.jpg') }}" />
+            </div>
+            <div class="col-8">
+                <h1 style="font-size:30px;" class="display-4">Lyn Davaris </h1>
+                <h4>Office manager </h2>
+            </div>
+        </div>
+
+        <div class="row ">
+            <div class="col-4">
+                <img class="round" src="{{url_for('static', filename='media/.jpg') }}" />
+            </div>
+            <div class="col-8">
+                <h1 style="font-size:30px;" class="display-4">Tara Davaris </h1>
+                <h4>Accounting </h2>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="container jumbotron center-block">
+                            <h1 class=" t sub lead center-block jumbotron-heading">Mission statement</h1>
+                            <hr class="my-2">
+                                <div class="row ">
+                                    <div class="col-md">
+                                        <p class=" sub about_about lead min">
+                                                To give our customers an exceptional experience by
+                                                providing products and services that meets and exceeds our customer’s expectations 
+                                                on an ongoing basis.
+                                        </p> 
+                                    </div>
+                                </div>
+                        </div> -->
+</div>
+<!-- </div> -->
+
+{% include 'footer.html' %}
+
+{% endblock %}

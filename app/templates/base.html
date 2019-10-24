@@ -1,0 +1,21 @@
+{% block content %}
+
+    {% include 'head.html' %} 
+    {% include 'navbar.html' %} 
+
+    {% with messages = get_flashed_messages() %} 
+        {% if messages %} 
+            {% for message in messages %}
+                <br>
+                <div class="alert alert-info" role="alert">{{ message }}</div>
+                <br> 
+            {% endfor %}
+        {% endif %} 
+    {% endwith %}
+    
+    {% block app_content %}
+        <!-- content will go here -->
+    {% endblock %} 
+    <!-- footer is 'included' manually becuase there are 2 types that differ per page -->
+    {% include 'after-scripts.html' %} <!-- JS links -->
+{% endblock %}
