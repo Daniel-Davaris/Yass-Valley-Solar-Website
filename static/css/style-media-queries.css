@@ -38,6 +38,7 @@
 
     }
     .navbar-nav{
+        /* min-height:200px !important; */
         list-style-type: circle !important;
         display:inline-block;
         width:60vw;
@@ -114,6 +115,7 @@
 }
 
 @media (max-width:700px) {
+
     .carousel-item > img {
         transform: scaleX(2);
     }
@@ -128,28 +130,23 @@
         /* height:70px; */
     }
     .navbar-nav{
-        list-style-type: circle !important;
-        display:inline-block;
-        width:80vw;
-        -webkit-column-width: 150px;
-        -moz-column-width: 150px;
-        column-width: 150px;
-        /* border:2px solid red; */
-        max-height:200px;
+      
+       
+       
         
     }
     .column{
         border:1px solid orange;
     }
     .nav-item{
-        margin-left:25px;
+        /* margin-left:25px; */
         /* border:2px solid green; */
         min-width:150px;
         max-width:150px;
         padding-left:30px;
     }
     .navbar-collapse{
-        margin-left: 10% !important;
+        /* margin-left: 10% !important; */
     }
    
     
@@ -171,6 +168,23 @@
 @media (max-width:530px) {
     .a,.b {
         width:200px;
+    }
+    .nav-link{
+        font-size:10px;
+        margin-top:0;
+        margin-bottom:-10px;
+        margin-top:-10px;
+        margin-left: 0 !important;
+    }
+    .navbar-nav{
+        /* width:90vw; */
+        /* margin-left:10px !important; */
+        -webkit-column-width: 150px;
+        -moz-column-width: 150px;
+        column-width: 150px;
+    }
+    .navbar-collapse{
+        /* margin-left: 2% !important; */
     }
 } 
 
@@ -200,6 +214,9 @@
         /* padding-left:20px; */
         /* padding-right:20px; */
         
+    }
+    .navbar-nav{
+        /* max-height:150px !important; */
     }
 } 
 @media (max-width:450px) {
@@ -231,14 +248,14 @@
         margin-left: 0 !important;
     }
     .navbar-nav{
-        width:90vw;
-        margin-left:10px !important;
+        /* width:90vw; */
+        /* margin-left:10px !important; */
         -webkit-column-width: 150px;
         -moz-column-width: 150px;
         column-width: 150px;
     }
     .navbar-collapse{
-        margin-left: 2% !important;
+        /* margin-left: 2% !important; */
     }
     .c.btn{
         /* margin-left:-15px; */
@@ -269,8 +286,8 @@
         margin-left: 0 !important;
     }
     .navbar-nav{
-        width:98vw;
-        margin-left:10px !important;
+        /* width:98vw; */
+        /* margin-left:10px !important; */
         -webkit-column-width: 110px;
         -moz-column-width: 110px;
         column-width: 110px;
