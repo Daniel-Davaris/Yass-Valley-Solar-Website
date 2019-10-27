@@ -10,7 +10,7 @@
     overflow-x: hidden !important
 }
 .under-slide{
-    margin-top:-25.5vh;
+    margin-top:-28vh;
 }
 .under-slide2{
     margin-top:-35.5vh;
@@ -18,7 +18,7 @@
 .top_section{
     background-color:rgb(87, 87, 87);
     height:100%;
-    padding-top:10px;
+    padding-top:20px;
     padding-bottom:10px;
 }
 .bottom_section{
@@ -35,6 +35,8 @@
     border-radius: 20px;
     padding-left:30px;
     padding-right:30px;
+    /* margin-left:-150px; */
+    margin-top:40px;
     
 }
 .my-btn:hover{
@@ -43,6 +45,7 @@
     text-decoration:none;
 }
 .social{
+    margin-top:10px;
     height:50px;
     width:50px;
 }
@@ -68,4 +71,6 @@
     color:white;
     font-size:12px;
     margin-top:20px;
+    min-widtH:150px;
+    text-align:center;
 }
