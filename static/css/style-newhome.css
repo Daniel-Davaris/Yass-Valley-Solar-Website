@@ -13,10 +13,10 @@ body{
     overflow-y: scroll;
     
 	
-	scroll-snap-type: mandatory;
-	scroll-snap-points-y: repeat(1200px);
-	scroll-snap-type: y mandatory;
-    scroll-snap-stop: always;
+	scroll-snap-type: proximity;
+	/* scroll-snap-points-y: repeat(1000px); */
+	scroll-snap-type: y proximity;
+    scroll-snap-stop: normal; /*is the default value and allows an element to be scrolled past without snapping*/
     list-style-type:none;
     text-decoration:none;
     margin-right:-5px !important;
@@ -33,7 +33,7 @@ body{
 	border-bottom: 1px solid white;
 	scroll-snap-align: start;
 	/* background-color:grey */
-    scroll-snap-stop: always;
+    scroll-snap-stop: normal;
 
     min-height:100vh;
     /* border: 3px solid rgb(0, 255, 85); */
@@ -54,7 +54,7 @@ body{
     background-size: cover;
     background-color:rgba(255, 255, 255, 0.486);
     /* border:5px solid */
-    min-width:130vh !important;
+    /* min-width:130vh !important; */
     margin-bottom:200px;
 }
 
@@ -326,5 +326,8 @@ body{
     
 }
 
-
-
+.out-b{
+    /* margin-left:0 !important;
+    margin-right:0 !important; */
+   
+}
