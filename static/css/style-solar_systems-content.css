@@ -10,10 +10,10 @@ body{
     overflow-y: scroll;
     
 	
-	scroll-snap-type: mandatory;
-	scroll-snap-points-y: repeat(1300px);
-	scroll-snap-type: y mandatory;
-    scroll-snap-stop: always;
+	scroll-snap-type: proximity;
+	/* scroll-snap-points-y: repeat(1300px); */
+	scroll-snap-type: y proximity;
+    scroll-snap-stop: normal;
     list-style-type:none;
     text-decoration:none;
     margin-top:;

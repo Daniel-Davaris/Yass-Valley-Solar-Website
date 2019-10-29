@@ -25,11 +25,13 @@
     .my-btn{
         /* margin-left:-55px !important; */
        }
+ 
    
 }
 
 
 @media (max-width:1200px) {
+  
     .my_logo{
         width:100px;
         margin-top:10px;  
@@ -44,7 +46,14 @@
         /* margin-left:-40px !important; */
        }
     .item2{
-        font-size:25px;
+        font-size:20px !important;
+        padding-left:80px !important;
+        padding-right:80px !important;
+        min-width:400px !important;
+        
+    }
+    .abs{
+        width:300px !important;
     }
 
     
@@ -80,6 +89,9 @@
     .my-btn{
         /* margin-left:-20px !important; */
        }
+    .out-b{
+       margin-right:50px !important;
+    }
 } 
 
 
@@ -129,7 +141,7 @@
 } 
 @media (max-width:800px) {
     .social{
-        position:absolute;
+        /* position:absolute; */
 
     }
 
@@ -189,7 +201,9 @@
     .navbar-collapse{
         /* margin-left: 10% !important; */
     }
-   
+   .bottom_section{
+       height:140px !important;
+   }
     
 } 
 
@@ -258,6 +272,28 @@
     }
     .navbar-nav{
         /* max-height:150px !important; */
+    }
+    .hide-c{
+        display:none;
+    }
+    .show-c{
+        display: inline-block !important;
+    }
+    .hidden-phone{
+        display: inline-block !important;
+      
+    }
+    .hidden-phone-img{
+        width:40px !important;
+        height:40px !important;
+        margin-top:10px;
+    }
+    .a_li,.b_li{
+        display:none;
+
+    }
+    .copyright{
+        min-width:15px !important;
     }
 } 
 @media (max-width:450px) {

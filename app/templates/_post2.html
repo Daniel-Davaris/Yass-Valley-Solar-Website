@@ -1,9 +1,9 @@
 
-<table style="padding:1px; margin-top:50px;" class="table table-hover">
+<table style="min-width:100px !important;"class="table table-hover">
     
-    <tr style="border:2px solid rgb(145, 145, 145);">
+    <tr style="min-width:100px !important; border:2px solid rgb(145, 145, 145);">
         <h1 style="font-size:15px">Blogpost: <span style="color:rgb(138, 193, 93)">{{ post.lol }}</span></h1>
-        <td style="margin-top:px;">
+        <td style="min-width:100px !important; margin-top:px;">
             
             <a style="padding-bottom:px;" href="{{ url_for('user', username=post.author.username) }}">
                 
@@ -11,7 +11,7 @@
 
             </a>
         </td>
-        <td style="font-size:12px; margin-top:100px; ">
+        <td style="margin-right:100px; font-size:12px; margin-top:100px; ">
             <a style="font-size: 15px;"ref="{{ url_for('user', username=post.author.username) }}">
                 {{ post.author.username }} 
                 <h1 style="font-size:10px;"> Yass Valley Solar Managing Director </h1>

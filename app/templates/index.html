@@ -229,7 +229,7 @@
             <div class="anb">
                 <h1 class="display-3 u">Keeping you up to date</h1>
                 <!-- <h1>Hi, {{ current_user.username }}!</h1> -->
-                <div class="container">
+                <div class="container out-b">
                     {% if form %} {{ wtf.quick_form(form) }}
                     <br> {% endif %} {% for post in posts %} {% include '_post.html' %} {% endfor %}
                     <div class="container h-100">
@@ -251,50 +251,39 @@
                     <br>
                     <br>
                     <br>
+
+
                     <div class="row r ustify-content-center">
-                        <div class="col-md-6 cl text-center ">
+                        <div class="abs col-md-6 cl text-center ">
                             <a class="text-align-center center-block btn item2" href="{{ url_for('.solar_systems', _anchor='a') }}" role="button">Residential Solar</a>
-
-
                         </div>
-                        <div class="col-md-6 cl text-center ">
+                        <div class="abs col-md-6 cl text-center ">
                             <a class="center-block btn item2" href="{{ url_for('.solar_systems', _anchor='b') }}" role="button">Commercial Solar</a>
-
-
                         </div>
                     </div>
+
+
                     <div class="row r ustify-content-center">
-                        <div class="col-md-6 cl text-center">
+                        <div class="abs col-md-6 cl text-center">
                             <a class="center-block btn item2" href="{{ url_for('.solar_systems', _anchor='c') }}" role="button">Off Grid Solar</a>
-
-
                         </div>
-
-                        <div class="col-md-6 cl text-center">
+                        <div class="abs col-md-6 cl text-center">
                             <a class="center-block btn item2" href="{{ url_for('.solar_systems', _anchor='d') }}" role="button">Battery Storage</a>
-
-
                         </div>
                     </div>
+
                     <div class="row r ustify-content-center">
-                        <div class="col-md-6 cl text-center">
+                        <div class=" abs col-md-6 cl text-center">
                             <a class="center-block btn item2" href="{{ url_for('.solar_systems', _anchor='e') }}" role="button">Energy Efficiency</a>
-
-
                         </div>
-                        <div class="col-md-6 cl text-center">
+                        <div class="abs col-md-6 cl text-center">
                             <a class="center-block btn item2" href="{{ url_for('.solar_systems', _anchor='f') }}" role="button">Solar Pumping</a>
-
-
                         </div>
                     </div>
+
 
                 </div>
-
-
-
             </div>
-
         </li>
         <li style="z-index:-2 !important;" class="inner last">
             <div class="container ">
