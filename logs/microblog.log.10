@@ -1,4 +1,4 @@
-2019-09-15 09:06:09,078 ERROR: Exception on /first_post [GET] [in C:\Users\danie\Anaconda3\lib\site-packages\flask\app.py:1891]
+2019-09-15 09:06:25,030 ERROR: Exception on /first_post [GET] [in C:\Users\danie\Anaconda3\lib\site-packages\flask\app.py:1891]
 Traceback (most recent call last):
   File "C:\Users\danie\Anaconda3\lib\site-packages\flask\app.py", line 2446, in wsgi_app
     response = self.full_dispatch_request()
@@ -53,7 +53,7 @@ Traceback (most recent call last):
   File "C:\Users\danie\Anaconda3\lib\site-packages\werkzeug\routing.py", line 2007, in build
     raise BuildError(endpoint, values, method, self)
 werkzeug.routing.BuildError: Could not build url for endpoint '#post'. Did you mean 'key_post' instead?
-2019-09-15 09:06:10,762 ERROR: Exception on /first_post [GET] [in C:\Users\danie\Anaconda3\lib\site-packages\flask\app.py:1891]
+2019-09-15 09:07:27,977 ERROR: Exception on /first_post [GET] [in C:\Users\danie\Anaconda3\lib\site-packages\flask\app.py:1891]
 Traceback (most recent call last):
   File "C:\Users\danie\Anaconda3\lib\site-packages\flask\app.py", line 2446, in wsgi_app
     response = self.full_dispatch_request()
