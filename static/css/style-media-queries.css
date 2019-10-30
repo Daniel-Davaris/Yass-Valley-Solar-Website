@@ -120,7 +120,29 @@
         padding-right:60px !important;
         min-width:300px !important;
     }
-   
+    .fim{
+        width:200px;
+        
+    }
+    .gim{
+        min-width:180px !important;
+        margin-left:60px !important;
+        margin-top:-20px !important;
+    }
+    .imm{
+        margin-left:50px;
+        
+    }
+    /* .gim{
+        width:180px !important;
+        min-width:100px !important;
+        max-width:100px !important;
+    }
+    */
+    .him{
+        margin-left:70px !important;
+        margin-top:-10px !important;
+    } 
 } 
 
 @media (max-width:995px) {
@@ -184,6 +206,23 @@
     .abs{
         margin-bottom:10px;
     }
+    .imm{
+        min-width:150px !important;
+        max-width:150px !important;
+        width:150px !important;
+    }
+    .gim{
+        min-width:120px !important;
+        max-width:120px !important;
+        width:120px !important;
+        margin-top:-10px !important;
+    }
+    .him{
+        min-width:120px !important;
+        max-width:120px !important;
+        width:120px !important;
+    }
+    
 }
 
 
@@ -324,6 +363,28 @@
     .r{
         margin-left:15vw;
     }
+    .imm{
+        min-width:25vw !important;
+        max-width:25vw !important;
+        margin-left:-10px !important;
+        
+        /* width:25vw !important; */
+    }
+    /* .gim{
+        min-width:100px !important;
+        max-width:100px !important;
+        width:100px !important;
+        margin-top:-10px !important;
+    }
+    .him{
+        min-width:100px !important;
+        max-width:100px !important;
+        width:120px !important;
+    }
+    .ind{
+        max-width:25vw !important;
+    } */
+    
 } 
 @media (max-width:450px) {
     .the_title{

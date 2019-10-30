@@ -50,6 +50,11 @@ body{
     /* min-width:110vw !important; */
 
 }
+.fancy{
+    background-color:white;
+    padding:20px;
+
+}
 .blog_sec{
     padding-top:15%;
     background-image: url("../media/shed.jpg");
