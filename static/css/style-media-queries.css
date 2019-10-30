@@ -284,6 +284,14 @@
     .r{
         margin-left:20vw;
     }
+    .cus-rev{
+        /* margin-left:50px !important; */
+        /* margin-right:50px !important; */
+    }
+    .ppp{
+        margin-right:20px !important;
+        margin-left:20px !important;
+    }
 }
 @media (max-width:530px) {
     .a,.b {
@@ -494,7 +502,11 @@
         transform: scaleX(3.5);
     }
     .top_banner > img{
-        transform: scaleX(3.5;
+        transform: scaleX(3.5);
+    }
+    
+    .ppp{
+        font-size:12px !important;
     }
     
 } 
