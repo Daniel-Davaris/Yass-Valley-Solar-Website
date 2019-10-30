@@ -22,6 +22,7 @@ body{
     margin-right:-5px !important;
     padding-right:0px !important;
     right:0 !important;
+    overflow-x: hidden;
 
     /* right:-5px !important; */
     /* margin-right:-10px !important; */
@@ -42,6 +43,7 @@ body{
     margin-right:-5px !important;
     padding-right:0px !important;
     right:0 !important;
+    overflow-x: hidden;
 
     /* right:-5px !important; */
     /* margin-right:-10px !important; */

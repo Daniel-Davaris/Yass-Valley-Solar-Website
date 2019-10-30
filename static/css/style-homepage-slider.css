@@ -1,4 +1,6 @@
-
+.body{
+    overflow-x: hidden;
+}
 #carouselExampleIndicators{
     /* border:2px solid red; */
   
