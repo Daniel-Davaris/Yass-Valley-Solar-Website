@@ -1,7 +1,1 @@
-__pycache__/
-app/__pycache__/
-__pycache__
-.vscode/
-
-**/.vscode
-**/__pycache__
+*.vscode/
