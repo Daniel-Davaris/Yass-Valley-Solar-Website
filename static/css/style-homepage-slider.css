@@ -136,7 +136,7 @@
 }
 .b:hover{
    background-color:white;
-   color:black;
+   color:rgb(255, 255, 255);
    box-shadow: 0px 0px 2px 3px #A3C84A;
 }
 .b:focus{
