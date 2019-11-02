@@ -38,6 +38,7 @@
      <!-- Solar Systems page -->
             {% if request.endpoint == 'solar_systems'  %}
                 <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/style-solar_systems-content.css')}}">
+                
             {% else %}
                 {% if request.endpoint == 'our_team'  %}
                     <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/style-about_us-content.css') }}"> 

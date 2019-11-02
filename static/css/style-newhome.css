@@ -10,13 +10,13 @@ body{
     min-height:110vh;
     /* min-width:100vh;  */
     
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
     
 	
-	scroll-snap-type: proximity;
+	/* scroll-snap-type: proximity; */
 	/* scroll-snap-points-y: repeat(1000px); */
-	scroll-snap-type: y proximity;
-    scroll-snap-stop: normal; /*is the default value and allows an element to be scrolled past without snapping*/
+	/* scroll-snap-type: y proximity; */
+    /* scroll-snap-stop: normal; is the default value and allows an element to be scrolled past without snapping */
     list-style-type:none;
     text-decoration:none;
     margin-right:-5px !important;
@@ -24,17 +24,17 @@ body{
     right:0 !important;
     overflow-x: hidden;
 
-    /* right:-5px !important; */
-    /* margin-right:-10px !important; */
-    /* min-width:102vw !important; */
+    right:-5px !important; 
+    margin-right:-10px !important; 
+    min-width:102vw !important;
     
 
 }
 .inner {
 	border-bottom: 1px solid white;
-	scroll-snap-align: start;
+	/* scroll-snap-align: start; */
 	/* background-color:grey */
-    scroll-snap-stop: normal;
+    /* scroll-snap-stop: normal; */
 
     min-height:100vh;
     /* border: 3px solid rgb(0, 255, 85); */
@@ -187,6 +187,10 @@ body{
     /* border:1px solid green; */
     margin-top:10%;
 }
+
+
+
+
 .title{
     font-size:30px;
     color:white;

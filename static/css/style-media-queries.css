@@ -12,6 +12,9 @@
     .nav-link{
         font-size:13px;
     }
+    .img2{
+        width:70vw !important;
+    }
    
    
 }
@@ -25,7 +28,10 @@
     .my-btn{
         /* margin-left:-55px !important; */
        }
- 
+    .para2{
+        font-size:12px !important;
+    }
+   
    
 }
 
@@ -55,6 +61,7 @@
     .abs{
         width:300px !important;
     }
+   
 
     
     .navbar-nav{
@@ -143,6 +150,18 @@
         margin-left:70px !important;
         margin-top:-10px !important;
     } 
+    .img-a{
+        width:300px !important;
+        height:200px !important;
+    }
+    .img-b{
+        margin-left: 0px !important;
+    }
+    .img-c{
+        width:300px !important;
+        height:200px !important;
+        margin-left: 0px !important;
+    }
 } 
 
 @media (max-width:995px) {
@@ -180,6 +199,9 @@
     }
     .al > .container{
         max-width: 1000px!important;
+    }
+    .img2{
+        /* width:80vw !important; */
     }
 
 }
@@ -222,6 +244,9 @@
         max-width:120px !important;
         width:120px !important;
     }
+    .ind{
+        margin-top:-5vh !important;
+    }
     
 }
 
@@ -263,6 +288,9 @@
    .bottom_section{
        height:140px !important;
    }
+   .in{
+    font-size:13px !important;
+}
     
 } 
 
@@ -292,6 +320,19 @@
         margin-right:20px !important;
         margin-left:20px !important;
     }
+    .image1{
+        height:300px !important;
+    }
+    .img1{
+        transform: scaleX(1.2) !important;
+    }
+    .services-title,.services-title2{
+        display:none !important;
+    }
+    .rnc{
+        margin-top:0 !important;
+    }
+    
 }
 @media (max-width:530px) {
     .a,.b {
@@ -378,6 +419,9 @@
         
         /* width:25vw !important; */
     }
+    .img1{
+        transform: scaleX(1.5) !important;
+    }
     /* .gim{
         min-width:100px !important;
         max-width:100px !important;
@@ -405,9 +449,18 @@
     .r{
         margin-left:12vw;
     }
+    .image1{
+        height:230px !important;
+    }
+    .in{
+        font-size:12px !important;
+    }
     
 } 
 @media (max-width:400px) {
+    .r{
+        margin-left:14vw;
+    }
     .my_logo{
         width:100px;
         margin-top:10px;  
@@ -441,6 +494,12 @@
     .r{
         margin-left:10vw;
     }
+    .image1{
+        height:200px !important;
+    }
+    #yes{
+        font-size:12px !important;
+    }
 } 
 @media (max-width:375px) {
     .c{
@@ -450,12 +509,22 @@
     .rnc{
         margin-top:-50px;
     }
+    .ind{
+        margin-top:2vh !important;
+    }
+    .r{
+        margin-left:7vw;
+    }
 }
 @media (max-width:360px) {
     .c{
         
         margin-left:-15%;
     } 
+    .ind{
+        margin-top:0vh !important;
+    }
+    
 }
 @media (max-width:330px) {
     .c{
@@ -493,6 +562,13 @@
         min-width:200px !important;
         margin-right:50px;
         
+    }
+    .image1{
+        height:180px !important;
+    }
+    .r{
+        margin-left:10vw;
+
     }
     
 } 

@@ -107,11 +107,11 @@
 }
 .img2{
     /* margin-top:50px; */
-    width:80%;
-    height:300px;
-    transform: scaleY(2);
-    max-height:300px;
-    overflow:hidden;
+    /* width:80%; */
+    /* height:300px; */
+    /* transform: scaleY(2); */
+    width:40vw;
+    /* overflow:hidden; */
 }
 .img3{
     width:300px;
@@ -136,7 +136,7 @@
     font-size:30px;
 }
 .image1{
-    max-height:450px;
+    height:335px;
 }
 .in{
     font-size: 20px;
