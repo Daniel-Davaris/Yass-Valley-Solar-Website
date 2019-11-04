@@ -367,3 +367,324 @@ OSError: LSAPI: File error
 2019-10-29 05:50:19.123017 [22047] Reached max children process limit: 6, extra: 2, current: 8, busy: 7, please increase LSAPI_CHILDREN.
 2019-10-29 11:04:34.998619 [338425] Child process with pid: 338440 was killed by signal: 15, core dump: 0
 OSError: LSAPI: File error
+2019-10-30 14:49:01.356650 [912909] Child process with pid: 927512 was killed by signal: 15, core dump: 0
+2019-10-30 14:49:01.388167 [912909] Child process with pid: 927509 was killed by signal: 15, core dump: 0
+2019-10-30 14:49:02.086091 [912909] Child process with pid: 927508 was killed by signal: 15, core dump: 0
+2019-10-30 14:49:03.358604 [912909] Child process with pid: 927703 was killed by signal: 15, core dump: 0
+2019-10-30 14:49:03.505147 [912909] Child process with pid: 927713 was killed by signal: 15, core dump: 0
+2019-10-30 14:49:04.878483 [912909] Child process with pid: 927789 was killed by signal: 15, core dump: 0
+OSError: LSAPI: File error
+OSError: LSAPI: File error
+OSError: LSAPI: File error
+OSError: LSAPI: File error
+OSError: LSAPI: File error
+OSError: LSAPI: File error
+OSError: LSAPI: File error
+2019-10-30 15:12:43.833767 [912909] Child process with pid: 950942 was killed by signal: 15, core dump: 0
+2019-10-30 15:12:43.838956 [912909] Child process with pid: 950940 was killed by signal: 15, core dump: 0
+2019-10-30 15:12:43.839156 [912909] Child process with pid: 950941 was killed by signal: 15, core dump: 0
+2019-10-30 15:13:33.551597 [912909] Child process with pid: 951906 was killed by signal: 15, core dump: 0
+2019-10-30 15:13:33.551746 [912909] Child process with pid: 951907 was killed by signal: 15, core dump: 0
+2019-10-30 15:13:33.556493 [912909] Child process with pid: 951905 was killed by signal: 15, core dump: 0
+2019-10-30 15:13:34.599627 [912909] Child process with pid: 951960 was killed by signal: 15, core dump: 0
+2019-10-30 15:13:34.615888 [912909] Child process with pid: 951962 was killed by signal: 15, core dump: 0
+2019-10-30 15:13:34.616141 [912909] Child process with pid: 951961 was killed by signal: 15, core dump: 0
+2019-10-30 15:13:35.948614 [912909] Child process with pid: 951983 was killed by signal: 15, core dump: 0
+2019-10-30 15:13:35.954000 [912909] Child process with pid: 951977 was killed by signal: 15, core dump: 0
+2019-10-30 15:13:35.955715 [912909] Child process with pid: 951963 was killed by signal: 15, core dump: 0
+2019-10-30 15:13:35.973849 [912909] Child process with pid: 951978 was killed by signal: 15, core dump: 0
+OSError: LSAPI: File error
+2019-10-30 15:26:26.542656 [912909] Child process with pid: 963557 was killed by signal: 15, core dump: 0
+2019-10-30 15:26:26.552784 [912909] Child process with pid: 963556 was killed by signal: 15, core dump: 0
+OSError: LSAPI: File error
+2019-10-30 15:55:09.868365 [1000231] Child process with pid: 1000246 was killed by signal: 15, core dump: 0
+2019-10-30 15:55:09.900136 [1000231] Child process with pid: 1000244 was killed by signal: 15, core dump: 0
+2019-10-30 16:20:44.647131 [1015241] Reached max children process limit: 6, extra: 2, current: 8, busy: 7, please increase LSAPI_CHILDREN.
+2019-10-30 16:20:44.747496 [1015241] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-10-30 16:20:44.847818 [1015241] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-10-30 16:20:44.948101 [1015241] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-10-30 16:20:45.048422 [1015241] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-10-30 16:20:45.148715 [1015241] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-10-30 16:20:45.249058 [1015241] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-10-30 16:20:45.349323 [1015241] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-10-30 16:20:45.449649 [1015241] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-10-30 16:20:45.549919 [1015241] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-10-30 16:20:45.650212 [1015241] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-10-30 16:20:45.750539 [1015241] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-10-30 16:20:45.850861 [1015241] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-10-30 16:20:45.951159 [1015241] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-10-30 16:20:46.051471 [1015241] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-10-30 16:20:46.061498 [1015241] Reached max children process limit: 6, extra: 2, current: 8, busy: 7, please increase LSAPI_CHILDREN.
+2019-10-30 16:20:47.547388 [1015241] Child process with pid: 1023004 was killed by signal: 15, core dump: 0
+2019-10-30 16:36:09.771682 [1040905] Reached max children process limit: 6, extra: 2, current: 8, busy: 7, please increase LSAPI_CHILDREN.
+2019-10-30 16:36:09.872010 [1040905] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-10-30 16:36:09.972380 [1040905] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-10-30 16:36:10.072622 [1040905] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-10-30 16:36:10.172888 [1040905] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-10-30 21:27:56.755920 [268025] Child process with pid: 268047 was killed by signal: 15, core dump: 0
+2019-10-30 21:27:56.770726 [268025] Child process with pid: 268052 was killed by signal: 15, core dump: 0
+2019-10-30 21:27:56.777325 [268025] Child process with pid: 268048 was killed by signal: 15, core dump: 0
+2019-10-30 21:27:56.778987 [268025] Child process with pid: 268051 was killed by signal: 15, core dump: 0
+2019-10-30 21:27:56.792397 [268025] Child process with pid: 268049 was killed by signal: 15, core dump: 0
+2019-11-01 10:17:58.436533 [138483] Child process with pid: 170418 was killed by signal: 15, core dump: 0
+2019-11-01 10:17:58.437124 [138483] Child process with pid: 170415 was killed by signal: 15, core dump: 0
+2019-11-01 10:17:58.437193 [138483] Child process with pid: 170419 was killed by signal: 15, core dump: 0
+2019-11-01 10:17:58.439823 [138483] Child process with pid: 170417 was killed by signal: 15, core dump: 0
+2019-11-01 10:17:58.442279 [138483] Child process with pid: 170416 was killed by signal: 15, core dump: 0
+OSError: LSAPI: File error
+OSError: LSAPI: File error
+OSError: LSAPI: File error
+OSError: LSAPI: File error
+OSError: LSAPI: File error
+OSError: LSAPI: File error
+2019-11-01 10:37:33.917011 [138483] Child process with pid: 197534 was killed by signal: 15, core dump: 0
+OSError: LSAPI: File error
+2019-11-01 10:57:58.310716 [138483] Child process with pid: 224961 was killed by signal: 15, core dump: 0
+2019-11-01 11:01:03.445334 [138483] Child process with pid: 227934 was killed by signal: 15, core dump: 0
+2019-11-01 11:01:03.446151 [138483] Child process with pid: 227933 was killed by signal: 15, core dump: 0
+OSError: LSAPI: File error
+2019-11-01 18:32:36.682363 [827151] Child process with pid: 832689 was killed by signal: 15, core dump: 0
+2019-11-01 18:32:36.682481 [827151] Child process with pid: 832690 was killed by signal: 15, core dump: 0
+2019-11-01 18:32:36.683727 [827151] Child process with pid: 832692 was killed by signal: 15, core dump: 0
+OSError: LSAPI: File error
+[2019-11-02 01:35:25,224] ERROR in app: Exception on /register [GET]
+Traceback (most recent call last):
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ygreneco/flask_app/app/routes.py", line 159, in register
+    return render_template('register.html', title='Register', form=form)
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/flask/templating.py", line 140, in render_template
+    ctx.app,
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/flask/templating.py", line 120, in _render
+    rv = template.render(context)
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/ygreneco/flask_app/app/templates/register.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "/home/ygreneco/flask_app/app/templates/base.html", line 1, in top-level template code
+    {% block content %}
+  File "/home/ygreneco/flask_app/app/templates/base.html", line 16, in block "content"
+    {% block app_content %}
+  File "/home/ygreneco/flask_app/app/templates/register.html", line 9, in block "app_content"
+    {{ wtf.quick_form(form) }}
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 430, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'wtf' is undefined
+2019-11-02 08:28:51.909193 [498697] Child process with pid: 502197 was killed by signal: 15, core dump: 0
+2019-11-02 08:28:51.924101 [498697] Child process with pid: 502200 was killed by signal: 15, core dump: 0
+2019-11-02 08:28:51.938991 [498697] Child process with pid: 502199 was killed by signal: 15, core dump: 0
+2019-11-02 08:28:51.950904 [498697] Child process with pid: 502201 was killed by signal: 15, core dump: 0
+2019-11-02 08:28:51.951692 [498697] Child process with pid: 502198 was killed by signal: 15, core dump: 0
+2019-11-02 08:29:09.542618 [498697] Child process with pid: 502239 was killed by signal: 15, core dump: 0
+2019-11-02 08:29:38.597963 [498697] Child process with pid: 502241 was killed by signal: 15, core dump: 0
+2019-11-02 08:35:24.126571 [498697] Child process with pid: 510626 was killed by signal: 15, core dump: 0
+2019-11-02 08:35:24.126684 [498697] Child process with pid: 510625 was killed by signal: 15, core dump: 0
+2019-11-02 08:35:24.126740 [498697] Child process with pid: 510627 was killed by signal: 15, core dump: 0
+2019-11-02 10:09:39.045632 [587989] Child process with pid: 591201 was killed by signal: 15, core dump: 0
+2019-11-02 10:09:39.053960 [587989] Child process with pid: 591210 was killed by signal: 15, core dump: 0
+OSError: LSAPI: File error
+2019-11-02 21:40:13.354138 [115969] Child process with pid: 117862 was killed by signal: 15, core dump: 0
+2019-11-02 21:40:18.209075 [115969] Child process with pid: 117932 was killed by signal: 15, core dump: 0
+OSError: LSAPI: File error
+OSError: LSAPI: File error
+OSError: LSAPI: File error
+OSError: LSAPI: File error
+OSError: LSAPI: File error
+OSError: LSAPI: File error
+2019-11-03 01:07:01.981118 [310917] Reached max children process limit: 6, extra: 2, current: 8, busy: 7, please increase LSAPI_CHILDREN.
+2019-11-03 01:07:02.122972 [310917] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-11-03 01:07:02.223265 [310917] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-11-03 01:07:02.323537 [310917] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-11-03 01:07:02.423867 [310917] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-11-03 01:07:02.524161 [310917] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-11-03 01:07:02.624496 [310917] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-11-03 01:07:02.724888 [310917] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-11-03 01:07:02.825212 [310917] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-11-03 01:07:02.925538 [310917] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-11-03 01:07:03.025998 [310917] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-11-03 01:07:03.126283 [310917] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-11-03 01:07:03.226551 [310917] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-11-03 01:07:03.326886 [310917] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-11-03 01:07:03.427238 [310917] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-11-03 01:07:03.527674 [310917] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-11-03 01:07:03.628013 [310917] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-11-03 01:07:03.728367 [310917] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-11-03 01:07:03.828746 [310917] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-11-03 01:07:03.929142 [310917] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-11-03 01:07:04.029513 [310917] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-11-03 01:07:04.129840 [310917] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-11-03 01:07:04.230192 [310917] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-11-03 01:07:04.330498 [310917] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-11-03 01:07:04.430852 [310917] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-11-03 01:07:04.531242 [310917] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-11-03 01:07:04.631636 [310917] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-11-03 01:07:04.731933 [310917] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-11-03 01:07:04.823120 [310917] Reached max children process limit: 6, extra: 2, current: 8, busy: 7, please increase LSAPI_CHILDREN.
+2019-11-03 01:07:04.923407 [310917] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-11-03 01:07:05.023672 [310917] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-11-03 03:50:58.387345 [431819] Reached max children process limit: 6, extra: 2, current: 8, busy: 7, please increase LSAPI_CHILDREN.
+2019-11-03 03:50:58.495108 [431819] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-11-03 03:50:58.595451 [431819] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-11-03 03:50:58.695873 [431819] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-11-03 03:50:58.796245 [431819] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-11-03 03:50:58.896616 [431819] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-11-03 03:50:58.997036 [431819] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-11-03 03:50:59.097312 [431819] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-11-03 03:50:59.205836 [431819] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-11-03 03:50:59.306175 [431819] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-11-03 03:50:59.406490 [431819] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-11-03 03:50:59.506813 [431819] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-11-03 03:50:59.607127 [431819] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-11-03 03:50:59.707437 [431819] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-11-03 03:50:59.807746 [431819] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-11-03 03:50:59.908112 [431819] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-11-03 03:51:00.008491 [431819] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-11-03 03:51:00.108807 [431819] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-11-03 03:51:00.209140 [431819] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-11-03 03:51:00.309454 [431819] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-11-03 03:51:00.411965 [431819] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-11-03 03:51:00.523112 [431819] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-11-03 03:51:00.623410 [431819] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-11-03 03:51:00.723746 [431819] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-11-03 03:51:00.824155 [431819] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-11-03 03:51:00.924456 [431819] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-11-03 03:51:01.024717 [431819] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-11-03 03:51:01.126038 [431819] Reached max children process limit: 6, extra: 2, current: 8, busy: 7, please increase LSAPI_CHILDREN.
+[2019-11-03 06:48:17,140] ERROR in app: Exception on /register [GET]
+Traceback (most recent call last):
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ygreneco/flask_app/app/routes.py", line 159, in register
+    return render_template('register.html', title='Register', form=form)
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/flask/templating.py", line 140, in render_template
+    ctx.app,
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/flask/templating.py", line 120, in _render
+    rv = template.render(context)
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/ygreneco/flask_app/app/templates/register.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "/home/ygreneco/flask_app/app/templates/base.html", line 1, in top-level template code
+    {% block content %}
+  File "/home/ygreneco/flask_app/app/templates/base.html", line 16, in block "content"
+    {% block app_content %}
+  File "/home/ygreneco/flask_app/app/templates/register.html", line 9, in block "app_content"
+    {{ wtf.quick_form(form) }}
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 430, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'wtf' is undefined
+2019-11-03 19:16:32.363053 [123658] Child process with pid: 123674 was killed by signal: 15, core dump: 0
+2019-11-03 19:16:32.363596 [123658] Child process with pid: 123678 was killed by signal: 15, core dump: 0
+[2019-11-04 07:47:17,216] ERROR in app: Exception on /register [GET]
+Traceback (most recent call last):
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ygreneco/flask_app/app/routes.py", line 159, in register
+    return render_template('register.html', title='Register', form=form)
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/flask/templating.py", line 140, in render_template
+    ctx.app,
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/flask/templating.py", line 120, in _render
+    rv = template.render(context)
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/ygreneco/flask_app/app/templates/register.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "/home/ygreneco/flask_app/app/templates/base.html", line 1, in top-level template code
+    {% block content %}
+  File "/home/ygreneco/flask_app/app/templates/base.html", line 16, in block "content"
+    {% block app_content %}
+  File "/home/ygreneco/flask_app/app/templates/register.html", line 9, in block "app_content"
+    {{ wtf.quick_form(form) }}
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 430, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'wtf' is undefined
+2019-11-04 09:44:11.111122 [838730] Child process with pid: 839562 was killed by signal: 15, core dump: 0
+[2019-11-04 14:30:49,823] ERROR in app: Exception on /register [GET]
+Traceback (most recent call last):
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ygreneco/flask_app/app/routes.py", line 159, in register
+    return render_template('register.html', title='Register', form=form)
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/flask/templating.py", line 140, in render_template
+    ctx.app,
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/flask/templating.py", line 120, in _render
+    rv = template.render(context)
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/ygreneco/flask_app/app/templates/register.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "/home/ygreneco/flask_app/app/templates/base.html", line 1, in top-level template code
+    {% block content %}
+  File "/home/ygreneco/flask_app/app/templates/base.html", line 16, in block "content"
+    {% block app_content %}
+  File "/home/ygreneco/flask_app/app/templates/register.html", line 9, in block "app_content"
+    {{ wtf.quick_form(form) }}
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 430, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'wtf' is undefined
+2019-11-04 15:11:36.345003 [117897] Child process with pid: 130129 was killed by signal: 15, core dump: 0
+2019-11-04 15:11:36.346247 [117897] Child process with pid: 130128 was killed by signal: 15, core dump: 0

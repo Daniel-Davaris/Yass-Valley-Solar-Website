@@ -1,110 +1,105 @@
-2019-09-15 09:06:25,030 ERROR: Exception on /first_post [GET] [in C:\Users\danie\Anaconda3\lib\site-packages\flask\app.py:1891]
-Traceback (most recent call last):
-  File "C:\Users\danie\Anaconda3\lib\site-packages\flask\app.py", line 2446, in wsgi_app
-    response = self.full_dispatch_request()
-  File "C:\Users\danie\Anaconda3\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-  File "C:\Users\danie\Anaconda3\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
-    reraise(exc_type, exc_value, tb)
-  File "C:\Users\danie\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
-    raise value
-  File "C:\Users\danie\Anaconda3\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
-    rv = self.dispatch_request()
-  File "C:\Users\danie\Anaconda3\lib\site-packages\flask\app.py", line 1935, in dispatch_request
-    return self.view_functions[rule.endpoint](**req.view_args)
-  File "C:\Users\danie\Dropbox\Classes\Web Design\project7\app\routes.py", line 93, in first_post
-    next_url=next_url, prev_url=prev_url)
-  File "C:\Users\danie\Anaconda3\lib\site-packages\flask\templating.py", line 140, in render_template
-    ctx.app,
-  File "C:\Users\danie\Anaconda3\lib\site-packages\flask\templating.py", line 120, in _render
-    rv = template.render(context)
-  File "C:\Users\danie\Anaconda3\lib\site-packages\jinja2\asyncsupport.py", line 76, in render
-    return original_render(self, *args, **kwargs)
-  File "C:\Users\danie\Anaconda3\lib\site-packages\jinja2\environment.py", line 1008, in render
-    return self.environment.handle_exception(exc_info, True)
-  File "C:\Users\danie\Anaconda3\lib\site-packages\jinja2\environment.py", line 780, in handle_exception
-    reraise(exc_type, exc_value, tb)
-  File "C:\Users\danie\Anaconda3\lib\site-packages\jinja2\_compat.py", line 37, in reraise
-    raise value.with_traceback(tb)
-  File "C:\Users\danie\Dropbox\Classes\Web Design\project7\app\templates\first_post.html", line 2, in top-level template code
-    {% import 'bootstrap/wtf.html' as wtf %}
-  File "C:\Users\danie\Dropbox\Classes\Web Design\project7\app\templates\base.html", line 1, in top-level template code
-    {% extends 'bootstrap/base.html' %}
-  File "C:\Users\danie\Anaconda3\lib\site-packages\flask_bootstrap\templates\bootstrap\base.html", line 1, in top-level template code
-    {% block doc -%}
-  File "C:\Users\danie\Anaconda3\lib\site-packages\flask_bootstrap\templates\bootstrap\base.html", line 4, in block "doc"
-    {%- block html %}
-  File "C:\Users\danie\Anaconda3\lib\site-packages\flask_bootstrap\templates\bootstrap\base.html", line 20, in block "html"
-    {% block body -%}
-  File "C:\Users\danie\Anaconda3\lib\site-packages\flask_bootstrap\templates\bootstrap\base.html", line 23, in block "body"
-    {% block content -%}
-  File "C:\Users\danie\Dropbox\Classes\Web Design\project7\app\templates\base.html", line 43, in block "content"
-    {% block app_content %}{% endblock %}
-  File "C:\Users\danie\Dropbox\Classes\Web Design\project7\app\templates\first_post.html", line 27, in block "app_content"
-    <a class="post_p sublink" href="{{ url_for('#post') }}"><p class=" in lead">Get a quote</p></a>
-  File "C:\Users\danie\Anaconda3\lib\site-packages\flask\helpers.py", line 370, in url_for
-    return appctx.app.handle_url_build_error(error, endpoint, values)
-  File "C:\Users\danie\Anaconda3\lib\site-packages\flask\app.py", line 2215, in handle_url_build_error
-    reraise(exc_type, exc_value, tb)
-  File "C:\Users\danie\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
-    raise value
-  File "C:\Users\danie\Anaconda3\lib\site-packages\flask\helpers.py", line 358, in url_for
-    endpoint, values, method=method, force_external=external
-  File "C:\Users\danie\Anaconda3\lib\site-packages\werkzeug\routing.py", line 2007, in build
-    raise BuildError(endpoint, values, method, self)
-werkzeug.routing.BuildError: Could not build url for endpoint '#post'. Did you mean 'key_post' instead?
-2019-09-15 09:07:27,977 ERROR: Exception on /first_post [GET] [in C:\Users\danie\Anaconda3\lib\site-packages\flask\app.py:1891]
-Traceback (most recent call last):
-  File "C:\Users\danie\Anaconda3\lib\site-packages\flask\app.py", line 2446, in wsgi_app
-    response = self.full_dispatch_request()
-  File "C:\Users\danie\Anaconda3\lib\site-packages\flask\app.py", line 1951, in full_dispatch_request
-    rv = self.handle_user_exception(e)
-  File "C:\Users\danie\Anaconda3\lib\site-packages\flask\app.py", line 1820, in handle_user_exception
-    reraise(exc_type, exc_value, tb)
-  File "C:\Users\danie\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
-    raise value
-  File "C:\Users\danie\Anaconda3\lib\site-packages\flask\app.py", line 1949, in full_dispatch_request
-    rv = self.dispatch_request()
-  File "C:\Users\danie\Anaconda3\lib\site-packages\flask\app.py", line 1935, in dispatch_request
-    return self.view_functions[rule.endpoint](**req.view_args)
-  File "C:\Users\danie\Dropbox\Classes\Web Design\project7\app\routes.py", line 93, in first_post
-    next_url=next_url, prev_url=prev_url)
-  File "C:\Users\danie\Anaconda3\lib\site-packages\flask\templating.py", line 140, in render_template
-    ctx.app,
-  File "C:\Users\danie\Anaconda3\lib\site-packages\flask\templating.py", line 120, in _render
-    rv = template.render(context)
-  File "C:\Users\danie\Anaconda3\lib\site-packages\jinja2\asyncsupport.py", line 76, in render
-    return original_render(self, *args, **kwargs)
-  File "C:\Users\danie\Anaconda3\lib\site-packages\jinja2\environment.py", line 1008, in render
-    return self.environment.handle_exception(exc_info, True)
-  File "C:\Users\danie\Anaconda3\lib\site-packages\jinja2\environment.py", line 780, in handle_exception
-    reraise(exc_type, exc_value, tb)
-  File "C:\Users\danie\Anaconda3\lib\site-packages\jinja2\_compat.py", line 37, in reraise
-    raise value.with_traceback(tb)
-  File "C:\Users\danie\Dropbox\Classes\Web Design\project7\app\templates\first_post.html", line 2, in top-level template code
-    {% import 'bootstrap/wtf.html' as wtf %}
-  File "C:\Users\danie\Dropbox\Classes\Web Design\project7\app\templates\base.html", line 1, in top-level template code
-    {% extends 'bootstrap/base.html' %}
-  File "C:\Users\danie\Anaconda3\lib\site-packages\flask_bootstrap\templates\bootstrap\base.html", line 1, in top-level template code
-    {% block doc -%}
-  File "C:\Users\danie\Anaconda3\lib\site-packages\flask_bootstrap\templates\bootstrap\base.html", line 4, in block "doc"
-    {%- block html %}
-  File "C:\Users\danie\Anaconda3\lib\site-packages\flask_bootstrap\templates\bootstrap\base.html", line 20, in block "html"
-    {% block body -%}
-  File "C:\Users\danie\Anaconda3\lib\site-packages\flask_bootstrap\templates\bootstrap\base.html", line 23, in block "body"
-    {% block content -%}
-  File "C:\Users\danie\Dropbox\Classes\Web Design\project7\app\templates\base.html", line 43, in block "content"
-    {% block app_content %}{% endblock %}
-  File "C:\Users\danie\Dropbox\Classes\Web Design\project7\app\templates\first_post.html", line 27, in block "app_content"
-    <a class="post_p sublink" href="{{ url_for('#post') }}"><p class=" in lead">Get a quote</p></a>
-  File "C:\Users\danie\Anaconda3\lib\site-packages\flask\helpers.py", line 370, in url_for
-    return appctx.app.handle_url_build_error(error, endpoint, values)
-  File "C:\Users\danie\Anaconda3\lib\site-packages\flask\app.py", line 2215, in handle_url_build_error
-    reraise(exc_type, exc_value, tb)
-  File "C:\Users\danie\Anaconda3\lib\site-packages\flask\_compat.py", line 39, in reraise
-    raise value
-  File "C:\Users\danie\Anaconda3\lib\site-packages\flask\helpers.py", line 358, in url_for
-    endpoint, values, method=method, force_external=external
-  File "C:\Users\danie\Anaconda3\lib\site-packages\werkzeug\routing.py", line 2007, in build
-    raise BuildError(endpoint, values, method, self)
-werkzeug.routing.BuildError: Could not build url for endpoint '#post'. Did you mean 'key_post' instead?
+2019-10-13 13:05:32,556 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-13 13:05:41,314 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-13 13:25:38,497 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-13 13:41:45,096 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-13 14:26:32,901 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-13 14:49:00,105 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-13 15:29:05,377 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-13 15:45:49,191 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-13 15:45:50,482 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-13 16:19:34,045 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-13 16:21:49,019 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-13 16:36:21,896 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-13 16:37:42,617 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-13 16:47:54,155 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-13 16:56:25,428 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-13 17:15:48,969 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-13 17:43:48,054 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-13 18:17:53,541 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-13 19:21:50,334 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-13 19:34:44,933 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-13 19:43:47,395 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-13 19:58:56,614 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-13 20:18:29,517 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-13 20:19:09,599 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-13 20:29:53,733 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-13 20:36:53,453 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-13 20:47:07,930 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-13 21:30:57,404 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-13 21:54:50,567 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-13 22:01:43,805 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-13 22:31:58,882 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-13 22:50:48,098 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-13 23:04:26,124 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-13 23:32:21,552 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-14 00:11:41,429 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-14 00:27:28,210 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-14 00:51:57,777 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-14 01:35:18,315 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-14 02:17:26,411 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-14 02:29:36,180 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-14 03:31:07,716 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-14 03:47:40,926 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-14 04:15:48,390 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-14 04:39:56,409 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-14 04:39:56,651 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-14 04:52:56,074 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-14 06:28:57,974 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-14 06:39:36,031 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-14 06:56:34,984 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-14 08:10:53,618 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-14 08:31:03,898 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-14 09:10:45,694 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-14 09:38:19,228 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-14 10:13:34,253 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-14 10:38:42,757 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-14 10:49:05,740 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-14 10:59:54,018 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-14 11:17:24,590 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-14 11:18:13,949 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-14 11:29:36,572 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-14 11:49:28,247 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-14 12:01:15,983 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-14 12:27:15,369 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-14 12:32:56,674 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-14 13:05:24,018 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-14 13:23:35,468 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-14 13:41:27,812 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-14 13:41:29,311 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-14 14:13:02,301 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-14 14:28:15,641 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-14 14:44:45,750 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-14 15:23:34,817 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-14 15:37:28,555 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-14 15:38:12,374 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-14 16:09:44,645 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-14 16:11:30,993 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-14 16:24:14,656 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-14 16:45:58,640 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-14 16:55:52,784 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-14 17:07:58,876 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-14 17:44:41,355 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-14 17:47:06,920 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-14 17:55:37,248 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-14 18:12:15,628 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-14 18:29:28,785 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-14 18:42:34,743 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-14 19:07:55,723 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-14 19:08:06,170 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-14 19:54:19,540 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-14 20:33:57,366 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-14 21:48:06,743 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-14 21:59:32,258 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-14 22:07:27,871 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-14 22:15:50,540 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-14 23:11:30,477 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-14 23:52:55,238 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-15 00:04:14,373 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-15 01:12:15,692 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-15 02:37:01,214 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-15 02:57:26,212 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-15 02:58:02,321 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-15 03:21:57,602 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-15 03:57:37,185 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-15 04:03:32,128 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-10-15 06:08:38,110 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]

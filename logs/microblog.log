@@ -1,57 +1,43 @@
-2019-10-28 19:39:24,045 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
-2019-10-28 20:05:54,595 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
-2019-10-28 20:26:31,471 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
-2019-10-28 20:41:08,229 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
-2019-10-28 20:54:28,747 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
-2019-10-28 21:23:44,425 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
-2019-10-28 21:32:20,097 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
-2019-10-28 22:52:44,299 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
-2019-10-28 23:31:36,811 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
-2019-10-28 23:43:50,669 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
-2019-10-29 00:47:28,987 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
-2019-10-29 01:11:26,299 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
-2019-10-29 01:12:47,661 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
-2019-10-29 01:31:18,494 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
-2019-10-29 01:40:17,216 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
-2019-10-29 02:18:38,527 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
-2019-10-29 02:46:55,420 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
-2019-10-29 03:46:55,746 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
-2019-10-29 04:14:36,663 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
-2019-10-29 04:53:08,512 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
-2019-10-29 05:01:08,397 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
-2019-10-29 05:40:48,556 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
-2019-10-29 06:50:01,363 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
-2019-10-29 06:52:58,562 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
-2019-10-29 07:15:22,656 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
-2019-10-29 07:18:52,181 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
-2019-10-29 07:54:37,298 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
-2019-10-29 08:20:19,539 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
-2019-10-29 08:36:25,822 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
-2019-10-29 09:10:22,663 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
-2019-10-29 09:17:43,786 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
-2019-10-29 10:19:17,905 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
-2019-10-29 10:42:54,062 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
-2019-10-29 11:04:28,267 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
-2019-10-29 11:27:52,320 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
-2019-10-29 12:10:07,611 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
-2019-10-29 12:39:33,593 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
-2019-10-29 13:11:03,760 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
-2019-10-29 13:26:53,219 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
-2019-10-29 13:41:16,417 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
-2019-10-29 13:44:51,082 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
-2019-10-29 14:10:09,312 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
-2019-10-29 14:57:33,370 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
-2019-10-29 15:42:58,189 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
-2019-10-29 15:58:33,812 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
-2019-10-29 16:27:10,154 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
-2019-10-29 16:49:39,783 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
-2019-10-29 17:01:19,600 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
-2019-10-29 17:15:45,457 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
-2019-10-29 17:45:27,762 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
-2019-10-29 18:01:51,615 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
-2019-10-29 18:11:32,651 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
-2019-10-29 19:10:06,730 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
-2019-10-29 20:09:44,149 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
-2019-10-29 20:23:58,534 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
-2019-10-29 20:24:53,299 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
-2019-10-29 20:46:13,243 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-11-04 14:30:49,823 ERROR: Exception on /register [GET] [in /home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/flask/app.py:1891]
+Traceback (most recent call last):
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ygreneco/flask_app/app/routes.py", line 159, in register
+    return render_template('register.html', title='Register', form=form)
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/flask/templating.py", line 140, in render_template
+    ctx.app,
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/flask/templating.py", line 120, in _render
+    rv = template.render(context)
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/ygreneco/flask_app/app/templates/register.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "/home/ygreneco/flask_app/app/templates/base.html", line 1, in top-level template code
+    {% block content %}
+  File "/home/ygreneco/flask_app/app/templates/base.html", line 16, in block "content"
+    {% block app_content %}
+  File "/home/ygreneco/flask_app/app/templates/register.html", line 9, in block "app_content"
+    {{ wtf.quick_form(form) }}
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 430, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'wtf' is undefined
+2019-11-04 14:59:33,588 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-11-04 15:26:07,398 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-11-04 15:44:19,023 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-11-04 18:38:14,555 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
