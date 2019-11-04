@@ -6,6 +6,13 @@ $(document).ready(function() {
     //     interval: 3000
     //   })
     // alert("iii")
+
+    $(".click_me").on('click', function(){
+        window.location = "contact_us#post";    
+   });
+
+
+
     $("window").scroll(function() {
         alert("yesss boiiiu")
         console.log("yes")
