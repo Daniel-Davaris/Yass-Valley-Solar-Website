@@ -14,8 +14,13 @@
     width:120px;
     height:120px;
     border-radius:100px;
-    border: 2px solid black;
-    margin-left:100px;
+    border: 5px solid #97c23c;
+    margin-left:10px;
+    margin-top:15px;
+    /* border: 10px solid; */
+    /* border-image-source: linear-gradient(45deg, rgb(0,143,104), rgb(250,224,66)); */
+    /* border-image-slice: 1; */
+    
 }
 
 .about_about{
@@ -48,8 +53,16 @@
 
 .my-2{
     color:#abd04d;
-    border:2px solid #abd04d;
+    border:2px solid #769722;
 }
 .t{
     font-size:20px !important;
+}
+
+.text{
+    margin-top:50px;
+}
+
+.text > span{
+    font-size:20px;
 }
