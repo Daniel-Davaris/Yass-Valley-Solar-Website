@@ -688,3 +688,118 @@ Traceback (most recent call last):
 jinja2.exceptions.UndefinedError: 'wtf' is undefined
 2019-11-04 15:11:36.345003 [117897] Child process with pid: 130129 was killed by signal: 15, core dump: 0
 2019-11-04 15:11:36.346247 [117897] Child process with pid: 130128 was killed by signal: 15, core dump: 0
+2019-11-05 11:51:15.365457 [216011] Reached max children process limit: 6, extra: 2, current: 8, busy: 7, please increase LSAPI_CHILDREN.
+2019-11-05 11:51:15.487078 [216011] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-11-05 11:51:15.592191 [216011] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-11-05 11:51:15.697041 [216011] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-11-05 11:51:15.802041 [216011] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-11-05 11:51:15.907096 [216011] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-11-05 11:51:16.007423 [216011] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-11-05 11:51:16.107697 [216011] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-11-05 11:51:16.208055 [216011] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-11-05 11:51:16.308369 [216011] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-11-05 11:51:16.408748 [216011] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-11-05 11:51:16.509103 [216011] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-11-05 11:51:16.609369 [216011] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-11-05 11:51:16.723121 [216011] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-11-05 11:51:16.732586 [216011] Reached max children process limit: 6, extra: 2, current: 8, busy: 7, please increase LSAPI_CHILDREN.
+2019-11-05 11:51:16.756767 [216011] Reached max children process limit: 6, extra: 2, current: 8, busy: 7, please increase LSAPI_CHILDREN.
+[2019-11-05 12:20:01,170] ERROR in app: Exception on /register [GET]
+Traceback (most recent call last):
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ygreneco/flask_app/app/routes.py", line 159, in register
+    return render_template('register.html', title='Register', form=form)
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/flask/templating.py", line 140, in render_template
+    ctx.app,
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/flask/templating.py", line 120, in _render
+    rv = template.render(context)
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/ygreneco/flask_app/app/templates/register.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "/home/ygreneco/flask_app/app/templates/base.html", line 1, in top-level template code
+    {% block content %}
+  File "/home/ygreneco/flask_app/app/templates/base.html", line 16, in block "content"
+    {% block app_content %}
+  File "/home/ygreneco/flask_app/app/templates/register.html", line 9, in block "app_content"
+    {{ wtf.quick_form(form) }}
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 430, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'wtf' is undefined
+[2019-11-06 09:43:03,258] ERROR in app: Exception on /register [GET]
+Traceback (most recent call last):
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/ygreneco/flask_app/app/routes.py", line 159, in register
+    return render_template('register.html', title='Register', form=form)
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/flask/templating.py", line 140, in render_template
+    ctx.app,
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/flask/templating.py", line 120, in _render
+    rv = template.render(context)
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "/home/ygreneco/flask_app/app/templates/register.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "/home/ygreneco/flask_app/app/templates/base.html", line 1, in top-level template code
+    {% block content %}
+  File "/home/ygreneco/flask_app/app/templates/base.html", line 16, in block "content"
+    {% block app_content %}
+  File "/home/ygreneco/flask_app/app/templates/register.html", line 9, in block "app_content"
+    {{ wtf.quick_form(form) }}
+  File "/home/ygreneco/virtualenv/flask_app/3.7/lib/python3.7/site-packages/jinja2/environment.py", line 430, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'wtf' is undefined
+2019-11-06 13:15:31.772989 [623200] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-11-06 13:15:31.874136 [623200] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-11-06 13:15:31.974460 [623200] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-11-06 13:15:32.074770 [623200] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-11-06 13:15:32.175076 [623200] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-11-06 13:15:32.275340 [623200] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-11-06 13:15:32.375637 [623200] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-11-06 13:15:32.475928 [623200] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-11-06 13:15:32.576183 [623200] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-11-06 13:15:32.676477 [623200] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-11-06 13:15:32.776967 [623200] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-11-06 13:15:32.877236 [623200] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-11-06 13:15:32.977486 [623200] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-11-06 13:15:33.077728 [623200] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-11-06 13:15:33.178002 [623200] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-11-06 13:15:33.279024 [623200] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-11-06 13:15:33.422942 [623200] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-11-06 13:15:33.523162 [623200] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-11-06 13:15:33.623422 [623200] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-11-06 13:15:33.723665 [623200] Reached max children process limit: 6, extra: 2, current: 8, busy: 8, please increase LSAPI_CHILDREN.
+2019-11-06 13:15:33.828551 [623200] Reached max children process limit: 6, extra: 2, current: 8, busy: 7, please increase LSAPI_CHILDREN.

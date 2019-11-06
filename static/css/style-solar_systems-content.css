@@ -115,7 +115,7 @@ body{
     margin-bottom:2%; */
     min-width:500px;
     font-weight:100;
-    max-width:400px !important;
+    max-width:400px;
     
     
 }
@@ -352,6 +352,9 @@ body{
     width:35vw;
     max-height:240px;
     font-size:18px;
+    /* padding-bottom:30px; */
+    /* margin-bottom:10px; */
+  
     
 }
 .mixbox{
