@@ -22,7 +22,7 @@ body{
     /* right:0 !important; */
     /* overflow-x: hidden; */
    
-
+    overflow-x: hidden;
     
 
 }
@@ -41,7 +41,7 @@ body{
     padding-right:0px !important;
     right:0 !important;
     overflow-x: hidden; */
-    
+    overflow-x: hidden;
 }
 .fancy{
     background-color:white;
