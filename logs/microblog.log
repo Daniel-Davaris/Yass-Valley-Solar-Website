@@ -49,3 +49,4 @@ jinja2.exceptions.UndefinedError: 'wtf' is undefined
 2019-11-06 15:37:55,102 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
 2019-11-06 16:19:03,372 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
 2019-11-06 16:39:54,822 INFO: Microblog startup [in /home/ygreneco/flask_app/app/__init__.py:51]
+2019-11-08 08:54:56,795 INFO: Microblog startup [in C:\Users\danie\Dropbox\Classes\Web Design\YVS\app\__init__.py:51]

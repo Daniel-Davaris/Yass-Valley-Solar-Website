@@ -668,10 +668,10 @@
         font-size:12px !important;
     }
     .imm{
-        margin-left:0 !important;
-        margin-right: 0 !important;
-        margin-top: 0 !important;
-        margin-bottom: 0 !important;
+        /* margin-left:0 !important; */
+        /* margin-right: 0 !important; */
+        margin-top: 30px!important;
+        margin-bottom: 30px !important;
     }
     .him{
         min-width:25vw !important;
@@ -704,6 +704,12 @@
     }
     .r{
         /* margin-left:7vw; */
+    }
+    .imm{
+        margin-left:0 !important;
+        margin-right: 0 !important;
+        margin-top: 0 !important;
+        margin-bottom: 0 !important;
     }
 }
 @media (max-width:360px) {
