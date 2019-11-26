@@ -20,7 +20,7 @@
     .img2{
         width:70vw !important;
     }
-   
+    
    
 }
 
@@ -360,14 +360,14 @@
     }
 
     .second-para{
-        font-size:12px !important;
+        font-size:15px !important;
     }
     .title-n{
         font-size:20px !important;
     }
     .second-img{
         text-align:center;
-        width:60% !important;
+        width:400px; !important;
         margin: auto;    
         display: block;
     }
