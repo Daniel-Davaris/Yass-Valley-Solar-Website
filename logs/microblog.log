@@ -52,3 +52,4 @@ jinja2.exceptions.UndefinedError: 'wtf' is undefined
 2019-11-08 08:54:56,795 INFO: Microblog startup [in C:\Users\danie\Dropbox\Classes\Web Design\YVS\app\__init__.py:51]
 2019-11-24 12:07:01,676 INFO: Microblog startup [in C:\Users\danie\Dropbox\Classes\Web Design\YVS\app\__init__.py:51]
 2019-11-24 12:09:57,527 INFO: Microblog startup [in C:\Users\danie\Dropbox\Classes\Web Design\YVS\app\__init__.py:51]
+2019-11-24 20:42:26,833 INFO: Microblog startup [in C:\Users\danie\Dropbox\Classes\Web Design\YVS\app\__init__.py:51]

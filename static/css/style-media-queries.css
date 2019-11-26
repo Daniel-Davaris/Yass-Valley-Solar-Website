@@ -217,6 +217,9 @@
         margin-left:30px !important;
         font-size:15px !important;
     }
+    .second-para{
+        font-size:15px !important;
+    }
 } 
 
 @media (max-width:995px) {
@@ -356,8 +359,20 @@
         margin-top:20vh !important;
     }
 
-    
+    .second-para{
+        font-size:12px !important;
+    }
+    .title-n{
+        font-size:20px !important;
+    }
+    .second-img{
+        text-align:center;
+        width:60% !important;
+        margin: auto;    
+        display: block;
+    }
 }
+
 
 
 @media (max-width:700px) {

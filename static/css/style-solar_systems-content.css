@@ -168,6 +168,12 @@ body{
     text-align:center;
     font-weight:200;
 }
+.title-n{
+    font-size:40px;
+    color:rgb(0, 0, 0);
+    text-align:center;
+    font-weight:400;
+}
 .title2{
     font-size:30px;
     color:rgb(0, 0, 0);
@@ -208,7 +214,7 @@ body{
 }
 
 .three{
-    background-color:rgb(126, 126, 126);
+    /* background-color:rgb(126, 126, 126); */
     /* min-height:100vh; */
     
 }
@@ -326,7 +332,7 @@ body{
 
 .services-title{
     text-align:center;
-    font-size:25px;
+    font-size:25px;titk
     font-weight:400;
     color:rgba(166, 255, 0, 0.637);
 }
@@ -338,6 +344,11 @@ body{
 
 .green{
     border:6px solid rgba(197, 214, 39, 0.89);
+    margin-top:0px;
+    margin-bottom:30px;
+}
+.green-2{
+    border:6px solid rgba(231, 231, 231, 0.89);
     margin-top:0px;
     margin-bottom:30px;
 }
@@ -419,3 +430,51 @@ li.tick {
     
 }
 
+.second-img{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    
+}
+
+.second-para{
+    /* color:white; */
+   
+}
+
+.battery-text{
+    /* font-size:20px; */
+    font-size:1.1rem;
+    /* max-width:400px; */
+
+}
+.battery-text > span{
+    /* font-size:14px; */
+    font-size:0.9rem;
+    max-width:300px;
+}
+
+.second-row-second{
+    /* margin-top:10vh; */
+    /* margin-right:50px; */
+    /* margin-bottom:50px; */
+    padding:100px;
+}
+.battery-col{
+    padding-left:0px !important;
+}
+.battery-col > img{
+    float:right;
+    
+}
+    
+.top_bit2{
+    padding-top:50px;
+}
+
+.battery-col{
+    /* box-shadow: 4px 20px 5px rgba(10, 10, 0, 0.164); */
+    /* min-width:200px;
+    padding:0px;
+    max-width:250px; */
+}
