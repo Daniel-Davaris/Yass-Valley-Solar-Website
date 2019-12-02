@@ -52,6 +52,12 @@
                                 <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/style-homepage-slider.css')}}">
                                 <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/style-newhome.css')}}">
                             {% endif %}
+                                {% if request.endpoint == 'ind_posts' %}
+                                    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/style-ind_posts-content.css') }}">
+                                {% else %}
+                                    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/style-homepage-slider.css')}}">
+                                    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/style-newhome.css')}}">
+                                {% endif %}
                     {% endif %}
                 {% endif %}
             {% endif %}
@@ -65,3 +71,5 @@
 </head>
 
 <body>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v5.0"></script>

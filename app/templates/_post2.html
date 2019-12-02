@@ -1,27 +1,41 @@
 
-<table style="min-width:100px !important;"class="table table-hover">
-    
-    <tr style="min-width:100px !important; border:2px solid rgb(145, 145, 145);">
-        <h1 style="font-size:15px">Blogpost: <span style="color:rgb(138, 193, 93)">{{ post.lol }}</span></h1>
-        <td style="min-width:100px !important; margin-top:px;">
-            
-            <a style="padding-bottom:px;" href="{{ url_for('user', username=post.author.username) }}">
-                
-                <img style="border-radius: 55px; padding:px;" src="{{ post.author.avatar(70) }}" />
 
-            </a>
-        </td>
-        <td style="margin-right:100px; font-size:12px; margin-top:100px; ">
-            <a style="font-size: 15px;"ref="{{ url_for('user', username=post.author.username) }}">
-                {{ post.author.username }} 
-                <h1 style="font-size:10px;"> Yass Valley Solar Managing Director </h1>
-                
-                
-            </a>
-             
-            <br>
-            <p style="color:rgb(95, 95, 95); ">{{ post.body }}</p>
-            <br>
-        </td>
-    </tr>
-</table>
+<style>
+    .no-style:hover{
+        text-decoration: none;
+    }
+</style>
+
+<a class="no-style" href="/ind_posts/{{ post.id }}">
+    <table style="min-width:100px !important;"class="table table-hover">
+        
+            
+
+            <tr style="min-width:100px !important; border:2px solid rgb(145, 145, 145);">
+                <h1 style="font-size:15px">Blogpost: <span style="color:rgb(138, 193, 93)">{{ post.lol }}</span></h1>
+                <td style="min-width:100px !important; margin-top:px;">
+                    
+                    <a class="no-style" style="padding-bottom:px;" href="{{ url_for('user', username=post.author.username) }}">
+                        
+                        <img style="border-radius: 55px; padding:px;" src="{{ post.author.avatar(70) }}" />
+
+                    </a>
+                </td>
+                <td style="margin-right:100px; font-size:12px; margin-top:100px; ">
+                    <a style="font-size: 15px;"ref="{{ url_for('user', username=post.author.username) }}">
+                        {{ post.author.username }} 
+                        <h1 class="no-style" style="font-size:10px;"> Yass Valley Solar Managing Director </h1>
+                        
+                        
+                    </a>
+                    
+                    <br>
+                    <p class="no-style" style="color:rgb(95, 95, 95); ">{{ post.body }}</p>
+                    <br>
+                </td>
+            </tr>
+        
+    </table>
+</a>
+
+

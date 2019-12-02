@@ -48,6 +48,24 @@ def blog():
                            next_url=next_url, prev_url=prev_url)
 
 
+
+
+# @app.route('/animals', methods=['GET', 'POST'])
+# def animals():
+#     selected_animal = request.args.get('type')
+#     print(selected_animal) # <-- should print 'cat', 'dog', or 'dragon'
+#     return render_template('animals.html', title='Animal Details', animal=selected_animal)
+
+
+@app.route('/ind_posts/<my_id>', methods=['GET'])
+def ind_posts(my_id):
+    page = request.args.get('page', 1, type=int)
+    posts = Post.query.order_by(Post.timestamp.desc()).paginate(
+        page, app.config['POSTS_PER_PAGE'], False)
+    single = Post.query.filter_by(id=my_id).first_or_404()
+    return render_template('ind_posts.html', title='ind_posts', my_id=my_id, posts=posts.items, single=single)
+
+
 @app.route('/our_team')
 # @login_required
 def our_team():
