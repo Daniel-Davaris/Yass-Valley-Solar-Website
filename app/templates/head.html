@@ -49,15 +49,13 @@
                         {% if request.endpoint == 'contact_us'  %}
                             <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/style-contact_us-content.css') }}">
                             {% else %}
-                                <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/style-homepage-slider.css')}}">
-                                <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/style-newhome.css')}}">
-                            {% endif %}
                                 {% if request.endpoint == 'ind_posts' %}
                                     <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/style-ind_posts-content.css') }}">
                                 {% else %}
                                     <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/style-homepage-slider.css')}}">
                                     <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/style-newhome.css')}}">
                                 {% endif %}
+                            {% endif %}
                     {% endif %}
                 {% endif %}
             {% endif %}

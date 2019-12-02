@@ -1,9 +1,15 @@
 from flask_wtf import FlaskForm
-from wtforms import StringField, PasswordField, BooleanField, SubmitField, \
-    TextAreaField
-from wtforms.validators import ValidationError, DataRequired, Email, EqualTo, \
-    Length
+from wtforms import StringField, PasswordField, BooleanField, SubmitField, TextAreaField
+from wtforms.validators import ValidationError, DataRequired, Email, EqualTo,Length
 from app.models import User
+from flask_uploads import UploadSet, configure_uploads, IMAGES, patch_request_class
+from flask_wtf.file import FileField, FileRequired, FileAllowed
+from app import app
+
+photos = UploadSet('photos', IMAGES)
+configure_uploads(app, photos)
+patch_request_class(app)  # set maximum file size, default is 16MB
+
 
 
 class LoginForm(FlaskForm):
@@ -62,5 +68,10 @@ class EditProfileForm(FlaskForm):
 
 class PostForm(FlaskForm):
     post = TextAreaField('Say something', validators=[DataRequired()])
+    # image = 
     submit = SubmitField('Submit')
     
+
+# class UploadForm(FlaskForm):
+#     photo = FileField(validators=[FileAllowed(photos, 'Image only!'), FileRequired('File was empty!')])
+#     submit = SubmitField('Upload')

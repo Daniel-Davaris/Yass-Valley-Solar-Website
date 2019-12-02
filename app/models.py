@@ -87,7 +87,6 @@ class Post(db.Model):
     body = db.Column(db.String(140))
     now = datetime.now()
     month = now.strftime("%m")
-
     ok = datetime.strptime(month, '%d')
     em = date.today()
     em2 = em.year
