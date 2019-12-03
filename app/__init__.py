@@ -16,12 +16,7 @@ app = Flask(__name__,static_folder=os.path.abspath('static'))
 app.config.from_object(Config)
 
 
-# basedir = 'C:\\Users\\danie\\Dropbox\\Classes\\Web Design\\YVS'
-# app.config['UPLOADED_PHOTOS_DEST'] = os.path.join(basedir, 'uploads') # you'll need to create a folder named uploads
 
-# photos = UploadSet('photos', IMAGES)
-# configure_uploads(app, photos)
-# patch_request_class(app)  # set maximum file size, default is 16MB
 
 
 
