@@ -16,8 +16,8 @@ app = Flask(__name__,static_folder=os.path.abspath('static'))
 app.config.from_object(Config)
 
 
-basedir = 'C:\\Users\\danie\\Dropbox\\Classes\\Web Design\\YVS'
-app.config['UPLOADED_PHOTOS_DEST'] = os.path.join(basedir, 'uploads') # you'll need to create a folder named uploads
+# basedir = 'C:\\Users\\danie\\Dropbox\\Classes\\Web Design\\YVS'
+# app.config['UPLOADED_PHOTOS_DEST'] = os.path.join(basedir, 'uploads') # you'll need to create a folder named uploads
 
 # photos = UploadSet('photos', IMAGES)
 # configure_uploads(app, photos)

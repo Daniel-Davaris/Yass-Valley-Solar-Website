@@ -1,8 +1,8 @@
 from datetime import datetime
 from flask import render_template, flash, redirect, url_for, request
 from flask_login import login_user, logout_user, current_user, login_required
-from flask_uploads import UploadSet, configure_uploads, IMAGES, patch_request_class
-from flask_wtf.file import FileField, FileRequired, FileAllowed
+# from flask_uploads import UploadSet, configure_uploads, IMAGES, patch_request_class
+# from flask_wtf.file import FileField, FileRequired, FileAllowed
 from werkzeug.urls import url_parse
 from app import app, db
 from app.forms import LoginForm, RegistrationForm, EditProfileForm, PostForm, ResetPasswordRequestForm, ResetPasswordForm
@@ -130,15 +130,15 @@ def my_posts():
                            prev_url=prev_url)
 
 
-@app.route('/', methods=['GET', 'POST'])
-def upload_file():
-    form = UploadForm()
-    if form.validate_on_submit():
-        filename = photos.save(form.photo.data)
-        file_url = photos.url(filename)
-    else:
-        file_url = None
-    return render_template('index.html', form=form, file_url=file_url)
+# @app.route('/', methods=['GET', 'POST'])
+# def upload_file():
+#     form = UploadForm()
+#     if form.validate_on_submit():
+#         filename = photos.save(form.photo.data)
+#         file_url = photos.url(filename)
+#     else:
+#         file_url = None
+#     return render_template('index.html', form=form, file_url=file_url)
 
 
 

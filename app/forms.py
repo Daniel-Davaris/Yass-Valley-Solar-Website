@@ -2,14 +2,7 @@ from flask_wtf import FlaskForm
 from wtforms import StringField, PasswordField, BooleanField, SubmitField, TextAreaField
 from wtforms.validators import ValidationError, DataRequired, Email, EqualTo,Length
 from app.models import User
-from flask_uploads import UploadSet, configure_uploads, IMAGES, patch_request_class
-from flask_wtf.file import FileField, FileRequired, FileAllowed
 from app import app
-
-photos = UploadSet('photos', IMAGES)
-configure_uploads(app, photos)
-patch_request_class(app)  # set maximum file size, default is 16MB
-
 
 
 class LoginForm(FlaskForm):
