@@ -3,7 +3,8 @@ from flask import render_template, flash, redirect, url_for, request
 from flask_login import login_user, logout_user, current_user, login_required
 from werkzeug.urls import url_parse
 from app import app, db
-from app.forms import LoginForm, RegistrationForm, EditProfileForm, PostForm, ResetPasswordRequestForm, ResetPasswordForm
+from app.forms import LoginForm, RegistrationForm, EditProfileForm, PostForm, \
+    ResetPasswordRequestForm, ResetPasswordForm
 from app.models import User, Post
 from app.email import send_password_reset_email
 
@@ -49,12 +50,6 @@ def blog():
 
 
 
-# @app.route('/animals', methods=['GET', 'POST'])
-# def animals():
-#     selected_animal = request.args.get('type')
-#     print(selected_animal) # <-- should print 'cat', 'dog', or 'dragon'
-#     return render_template('animals.html', title='Animal Details', animal=selected_animal)
-
 
 @app.route('/ind_posts/<my_id>', methods=['GET'])
 def ind_posts(my_id):
@@ -63,6 +58,9 @@ def ind_posts(my_id):
         page, app.config['POSTS_PER_PAGE'], False)
     single = Post.query.filter_by(id=my_id).first_or_404()
     return render_template('ind_posts.html', title='ind_posts', my_id=my_id, posts=posts.items, single=single)
+
+
+
 
 
 @app.route('/our_team')
@@ -113,7 +111,7 @@ def my_posts():
         post = Post(body=form.post.data, author=current_user)
         db.session.add(post)
         db.session.commit()
-        # flash('Your post is now live!')
+        flash('Your post is now live!')
         return redirect(url_for('index'))
 
     page = request.args.get('page', 1, type=int)
@@ -126,17 +124,6 @@ def my_posts():
     return render_template('my_posts.html', title='My Posts', form=form,
                            posts=posts.items, next_url=next_url,
                            prev_url=prev_url)
-
-
-# @app.route('/', methods=['GET', 'POST'])
-# def upload_file():
-#     form = UploadForm()
-#     if form.validate_on_submit():
-#         filename = photos.save(form.photo.data)
-#         file_url = photos.url(filename)
-#     else:
-#         file_url = None
-#     return render_template('index.html', form=form, file_url=file_url)
 
 
 
