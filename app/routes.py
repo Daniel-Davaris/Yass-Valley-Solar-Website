@@ -49,6 +49,20 @@ def blog():
 
 
 
+
+
+@app.route('/ind_posts/<my_id>', methods=['GET'])
+def ind_posts(my_id):
+    page = request.args.get('page', 1, type=int)
+    posts = Post.query.order_by(Post.timestamp.desc()).paginate(
+        page, app.config['POSTS_PER_PAGE'], False)
+    single = Post.query.filter_by(id=my_id).first_or_404()
+    return render_template('ind_posts.html', title='ind_posts', my_id=my_id, posts=posts.items, single=single)
+
+
+
+
+
 @app.route('/our_team')
 # @login_required
 def our_team():
@@ -111,12 +125,12 @@ def my_posts():
                            posts=posts.items, next_url=next_url,
                            prev_url=prev_url)
 
-                           
+
 
 @app.route('/login', methods=['GET', 'POST'])
 def login():
     if current_user.is_authenticated:
-        return redirect(url_for('index'))
+        return redirect(url_for('my_posts'))
     form = LoginForm()
     if form.validate_on_submit():
         user = User.query.filter_by(username=form.username.data).first()
@@ -126,7 +140,7 @@ def login():
         login_user(user, remember=form.remember_me.data)
         next_page = request.args.get('next')
         if not next_page or url_parse(next_page).netloc != '':
-            next_page = url_for('index')
+            next_page = url_for('my_posts')
         return redirect(next_page)
     return render_template('login.html', title='Sign In', form=form)
 
@@ -254,4 +268,3 @@ def unfollow(username):
     db.session.commit()
     flash('You are not following {}.'.format(username))
     return redirect(url_for('user', username=username))
-

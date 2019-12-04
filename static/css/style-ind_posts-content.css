@@ -1,0 +1,53 @@
+.outer{
+    padding-top:13vh;
+
+    
+
+}
+
+.text-col{
+    padding:40px;
+    text-align:center;
+}
+
+.text-row{
+    background-color:rgb(211, 211, 211);
+    margin-top:20px;
+}
+
+.blog-top{
+    background-color:rgb(73, 73, 73);
+}
+.blog-top >h1{
+    font-size:26px;
+    padding:20px;
+    color:white;
+
+}
+
+.name-top{
+    /* background-color:red; */
+    background-color:rgb(102, 102, 102);
+}
+
+.avatar-col{
+    padding:3px;
+    min-width:80px;
+}
+
+.title-col{
+    padding:10px;
+}
+.big{
+    font-size:17px;
+    color:white;
+}
+.smal{
+    font-size:20px;
+    color:white;
+}
+
+.my-row{
+    padding:10px;
+    padding-left:20px;
+}

@@ -1,15 +1,26 @@
 {% extends "base.html" %} 
 {% import "bootstrap/wtf.html" as wtf %} 
 {% block app_content %}
+
+<style>
+    .sol > form > .btn{
+        border:5px solid rgba(197, 214, 39, 0.89);
+    }
+</style>
 <br>
 <br>
 <br>
 <h1 style="color:white">wassssupppp</h1>
-    <div class="container" style="margin-top:50px; margin-bottom:30%;">
+    <div class="container sol" style="margin-top:50px; margin-bottom:30%;">
         <!-- <h1>Hi, {{ current_user.username }}!</h1> -->
         {% if form %}
         {{ wtf.quick_form(form) }}
         <br>
+
+
+
+
+        
         {% endif %}
         {% for post in posts %}
             {% include '_post2.html' %}

@@ -20,7 +20,7 @@
     .img2{
         width:70vw !important;
     }
-   
+    
    
 }
 
@@ -217,6 +217,9 @@
         margin-left:30px !important;
         font-size:15px !important;
     }
+    .second-para{
+        font-size:15px !important;
+    }
 } 
 
 @media (max-width:995px) {
@@ -356,8 +359,20 @@
         margin-top:200px !important;
     }
 
-    
+    .second-para{
+        font-size:15px !important;
+    }
+    .title-n{
+        font-size:20px !important;
+    }
+    .second-img{
+        text-align:center;
+        width:400px; !important;
+        margin: auto;    
+        display: block;
+    }
 }
+
 
 
 @media (max-width:700px) {
@@ -709,6 +724,9 @@
     .tick{
         font-size:16px !important;
         margin-left:100px !important;
+    }
+    .green-span{
+        font-size:16px;
     }
 } 
 @media (max-width:375px) {
