@@ -174,6 +174,12 @@ body{
     text-align:center;
     font-weight:400;
 }
+.title-n-m{
+    font-size:30px;
+    color:rgb(0, 0, 0);
+    text-align:center;
+    font-weight:400;
+}
 .title2{
     font-size:30px;
     color:rgb(0, 0, 0);
@@ -204,6 +210,28 @@ body{
     width:500px;
     float:right;
 }
+
+.image-2{
+    width:500px;
+    /* float:right; */
+    overflow:hidden;
+    text-align:center;
+    margin: auto;    
+    display: block;
+}
+.image-3{
+    height:350px;
+    /* float:right; */
+    overflow:hidden;
+    text-align:center;
+    margin: auto;    
+    display: block;
+    padding: 0px !important;
+    width:100%;
+    margin:0px !important;
+    box-shadow: 15px 10px 20px 5px rgba(0, 0, 0, 0.164);
+}
+
 .h{
     border:1.5px solid rgb(0, 0, 0);
     margin-bottom:20px;
@@ -370,6 +398,27 @@ body{
   
     
 }
+.mini-2{
+    
+    /* margin-left:0px; */
+    border:2px solid rgba(197, 214, 39, 0.89);
+    padding:20px;
+    border-radius: 10px;
+    width:600px;
+    max-height:240px;
+    font-size:18px;
+    margin-top:50px;
+    margin-bottom:75px;
+    right:20px;
+    /* margin-right:20px; */
+    padding-right:20px;
+    /* padding-right:100px; */
+    /* margin-bottom:350px; */
+    /* padding-bottom:30px; */
+    /* margin-bottom:10px; */
+  
+    
+}
 .mixbox{
     margin-top:50px;
     
@@ -389,6 +438,30 @@ li.tick {
 
     
 }
+
+li.tick2 {
+    background: url('../media/real-tick.png') no-repeat left top;
+    height: 54px;
+    padding-left: 44px;
+    padding-top: 1px;
+    min-width:250px;
+    max-width:90vw;
+    /* border-image: 1px solid #BFD400; */
+    /* border-radius: 50%; */
+}
+li.tick3 {
+    background: url('../media/tick.png') no-repeat left top;
+    height: 54px;
+    padding-left: 44px;
+    padding-top: 1px;
+    min-width:250px;
+    max-width:90vw;
+    font-size:15px;
+    margin-left:20px !important;
+    /* border-image: 1px solid #BFD400; */
+    /* border-radius: 50%; */
+}
+    
 .li{
     margin-left:60px;
 }
@@ -397,6 +470,15 @@ li.tick {
     padding-right:8vw;
     padding-top:25px;
     padding-bottom:5px;
+   
+    
+}
+.td1-3{
+    border:1px solid rgb(197, 197, 197);
+    padding-right:3vw;
+    padding-top:15px;
+    /* padding-bottom:5px; */
+    margin-left:40px;
    
     
 }
@@ -419,9 +501,29 @@ li.tick {
     padding-left:35%;
     
 }
+
+.tick-btn2{
+    background-color:rgba(197, 214, 39, 0.89);
+    padding-top:20px;
+    padding-bottom:20px;
+    font-weight:500;
+    transition: 0.3s;
+    margin-top:10px !important;
+    color:black;
+    padding-left:30%;
+    
+}
 .tick-btn:hover{
     color:white;
-    /* border:2px solid rgb(109, 109, 109); */
+    /* border:2px solid rgb(109, 109, 109tick3); */
+    background-color: rgba(146, 160, 26, 0.89);
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+.tick-btn2:hover{
+    color:white;
+    /* border:2px solid rgb(109, 109, 109tick3); */
     background-color: rgba(146, 160, 26, 0.89);
     text-decoration: none;
     cursor: pointer;
@@ -431,7 +533,13 @@ li.tick {
 .table1,.tick-btn{
     /* max-width:487px !important; */
     /* padding:0 !important; */
-    box-shadow: 10px 10px 20px 10px rgba(0, 0, 0, 0.164);
+    box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.164);
+}
+.my_table,.tick-btn2{
+    /* max-width:487px !important; */
+    /* padding:0 !important; */
+    /* padding; */
+    box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.164);
 }
 .col-centered{
     float: none;
@@ -508,4 +616,47 @@ li.tick {
 
 .inside-c{
     color:white;
+}
+.insi{
+    width:200px;
+    float:right;
+}
+
+.limit{
+    max-width:20vw;
+}
+
+.left-side{
+    /* background-color:red; */
+
+}
+
+.my_table{
+    float:right;
+    margin-top:160px;
+    margin-left:100px;
+    /* padding-bottom:20px; */
+    margin-bottom:30px;
+}
+
+.find-more-col{
+    text-align:center;
+    
+    
+}
+.find-more{
+    text-decoration:none;
+    color:black;
+    font-size:20px;
+    margin-left:-40px;
+    text-decoration:underline;
+}
+
+.find-more:hover{
+    /* text-decoration:none; */
+    color:black;
+}
+.center_me{
+    float: none;
+    margin: 0 auto;
 }
