@@ -660,3 +660,46 @@ li.tick3 {
     float: none;
     margin: 0 auto;
 }
+
+.image-u{
+    /* margin-top:0px; */
+    margin-left:-60px;
+    height:270px;
+    box-shadow: 15px 10px 20px 5px rgba(0, 0, 0, 0.164);   
+}
+
+.table_more{
+   
+   
+}
+
+.more-row{
+    /* border:1px solid black; */
+    padding:30px;
+}
+.more-d{
+    /* border:1px solid black; */
+    padding:10px;
+    font-size:13px;
+    padding-left:25px;
+    font-weight:500;
+}
+
+.c{
+    /* height:2px; */
+    /* width:2px; */
+    /* background-color:green; */
+    color:rgba(197, 214, 39, 0.89);
+}
+.normal{
+    color:black;.
+}
+
+.my_ul{
+    border:1px solid rgba(197, 214, 39, 0.89);
+    margin-top:20px;
+    margin-right:17px;
+    box-shadow: 15px 10px 20px 1px rgba(0, 0, 0, 0.082);  
+    border-radius: 3px;
+    margin-bottom:20px;
+}

@@ -252,6 +252,29 @@
     /* .center_me-j{
         width:3
     } */
+    .my_table{
+        width:40vw !important;
+        /* text-align:center !important; */
+        /* display:block !important; */
+        /* margin:0 auto !important; */
+    }
+    .cn{
+        /* text-align:center !important; */
+        /* display:block !important; */
+        /* margin:0 auto !important; */
+        /* width:100vw; */
+    }
+    .tick3{
+        /* text-align:center !important; */
+        margin:auto !important;
+        display:block;
+        margin-right:0px !important;
+        font-size:2vw !important;
+        width:50vw !important;
+    }
+    .tick-btn2{
+        padding-left:35% !important;
+    }
     
 } 
 
@@ -669,6 +692,43 @@
     .ind{
         max-width:25vw !important;
     } */
+    .tick2{
+        /* width:90vw !important; */
+        font-size:15px !important;
+        margin-left:80px !important;
+    }
+    .tick-btn{
+        padding-left:32% !important;
+    }
+    .bat-img{
+        margin-left:-30px !important;
+    }
+    .battery-text{
+        margin-bottom:20px !important;
+    }
+    .image-2{
+        margin-left:-20px !important;
+    }
+    .mini-2{
+        /* margin-left:-20px !important; */
+        font-size:14px !important;
+        width:90vw !important;
+        margin-top:0 !important;
+    }
+    .my_ul{
+        padding-left:7px!important;
+        margin:5px !important;
+        
+    }
+    .normal{
+        font-size:10px !important;
+    }
+    .tick3{
+        font-size:15px !important;
+    }
+    .find-more{
+        margin-left:6vw !important;
+    }
 
     
 } 
@@ -764,6 +824,7 @@
     .green-span{
         font-size:16px;
     }
+
 } 
 @media (max-width:375px) {
     .c{
