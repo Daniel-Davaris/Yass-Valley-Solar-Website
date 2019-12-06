@@ -185,6 +185,12 @@ body{
     color:rgb(0, 0, 0);
     text-align:left;
 }
+.title-e{
+    font-size:25px;
+    color:rgb(0, 0, 0);
+    text-align:center;
+    font-weight:400;
+}
 .para{
     font-size:20px;
     color:rgb(0, 0, 0);
@@ -194,7 +200,7 @@ body{
 
 }
 .para3{
-    font-size:10px !important;
+    font-size:12px !important;
 }
 .para4{
     font-size:20px;
@@ -702,4 +708,43 @@ li.tick3 {
     box-shadow: 15px 10px 20px 1px rgba(0, 0, 0, 0.082);  
     border-radius: 3px;
     margin-bottom:20px;
+}
+
+.img-c{
+    width:100px;
+    border-radius:50px;
+    border:4px solid rgba(191, 209, 32, 0.89);
+}
+.sub-col-3,.col-3-title{
+    margin-left:-10vw;
+    margin-right:5vw;
+}
+.sub-col-4,.col-4-title{
+    margin-right:-10vw;
+    margin-left:5vw;
+}
+.no-pad{
+    padding:0px;
+}
+.row-sep{
+    padding:10px;
+    border:2px solid rgba(63, 63, 63, 0.89);
+    border-radius:8px;
+    margin-bottom:10px;
+}
+.sub-col-1{
+    margin-right:2vw;
+}
+.sub-col-2{
+    margin-left:2vw;
+}
+
+.cus-btn{
+    /* background-color:blue; */
+    border:2px solid rgba(124, 136, 19, 0.89);
+    background-color:rgba(255, 255, 255, 0);
+}
+
+b{
+    font-weight:700;
 }
