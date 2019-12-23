@@ -250,7 +250,7 @@ body{
 
 .three{
     /* background-color:rgb(126, 126, 126); */
-    /* min-height:100vh; */
+    min-height:120vh !important;
     
 }
 
