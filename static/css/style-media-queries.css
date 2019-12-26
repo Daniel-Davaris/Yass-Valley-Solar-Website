@@ -554,7 +554,7 @@
         transform: scaleX(1.2) !important;
     }
     .services-title{
-        margin-top:110px !important;
+        visibility: hidden !important;
     }
     .rnc{
         margin-top:-90px !important;
@@ -740,6 +740,9 @@
     }
     .find-more{
         margin-left:6vw !important;
+    }
+    .serivces-title{
+        visibility: hidden !important;
     }
 
     
