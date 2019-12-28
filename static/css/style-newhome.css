@@ -6,27 +6,23 @@ body{
 }
 
 .outer{
-    max-height:110vh;
+    max-height:100vh;
     min-height:110vh;
-    /* min-width:100vh;  */
     
-    /* overflow-y: scroll; */
+    
+    overflow-y: scroll;
     
 	
 	/* scroll-snap-type: proximity; */
-	/* scroll-snap-points-y: repeat(1000px); */
-	/* scroll-snap-type: y proximity; */
-    /* scroll-snap-stop: normal; is the default value and allows an element to be scrolled past without snapping */
-    list-style-type:none;
+	/* scroll-snap-points-y: repeat(1300px); */
+    scroll-snap-type: none;
     text-decoration:none;
-    margin-right:-5px !important;
-    padding-right:0px !important;
-    right:0 !important;
+    /* margin-right:-5px !important; */
+    /* padding-right:0px !important; */
+    /* right:0 !important; */
+    /* overflow-x: hidden; */
+   
     overflow-x: hidden;
-
-    right:-5px !important; 
-    margin-right:-10px !important; 
-    min-width:102vw !important;
     
 
 }
@@ -34,21 +30,18 @@ body{
 	border-bottom: 1px solid white;
 	/* scroll-snap-align: start; */
 	/* background-color:grey */
-    /* scroll-snap-stop: normal; */
-
+    /* scroll-snap-stop: always; */
+/*  */
     min-height:100vh;
     /* border: 3px solid rgb(0, 255, 85); */
     list-style-type:none;
     text-decoration:none;
-    margin-right:-5px !important;
+    overflow-y: hidden;
+    /* margin-right:-5px !important;
     padding-right:0px !important;
     right:0 !important;
+    overflow-x: hidden; */
     overflow-x: hidden;
-
-    /* right:-5px !important; */
-    /* margin-right:-10px !important; */
-    /* min-width:110vw !important; */
-
 }
 .fancy{
     background-color:white;
