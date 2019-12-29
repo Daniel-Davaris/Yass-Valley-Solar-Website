@@ -26,13 +26,13 @@
             {% include '_post2.html' %}
         {% endfor %}
         <nav aria-label="...">
-            <ul class="pager">
-                <li class="previous{% if not prev_url %} disabled{% endif %}">
+            <ul class="mt-2 pager">
+                <li style="display:inline-block"previous{% if not prev_url %} disabled{% endif %}">
                     <a href="{{ prev_url or '#' }}">
                         <span aria-hidden="true">&larr;</span> Newer posts
                     </a>
                 </li>
-                <li class="next{% if not next_url %} disabled{% endif %}">
+                <li style="margin-left:20px;display:inline-block"class="next{% if not next_url %} disabled{% endif %}">
                     <a href="{{ next_url or '#' }}">
                         Older posts <span aria-hidden="true">&rarr;</span>
                     </a>

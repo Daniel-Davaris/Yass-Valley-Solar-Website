@@ -34,6 +34,12 @@ $(document).ready(function() {
         $(".nav-container").toggleClass("grad");
         
     });
+
+//     $(".post-link").on('click', function(){
+//         window.location = "/ind_posts/{{ post.id }}";    
+//    });
+
+
 });
 
 // console.log("new")

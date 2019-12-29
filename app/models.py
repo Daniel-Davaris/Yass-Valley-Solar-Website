@@ -87,17 +87,8 @@ class Post(db.Model):
     body = db.Column(db.String(140))
     now = datetime.now()
     month = now.strftime("%m")
+    timestamp = db.Column(db.Date, index=True, default=date.today())
     
-    ok = datetime.strptime(month, '%d')
-    em = date.today()
-    em2 = em.year
-    em3 = em.month
-    em4 = em.day
-    # rex = r""
-    # var2 = re.split(rex, str(var))
-    timestamp = db.Column(db.DateTime, index=True, default=date.today())
-    lol = em
-   
     user_id = db.Column(db.Integer, db.ForeignKey('user.id'))
 
     def __repr__(self):
