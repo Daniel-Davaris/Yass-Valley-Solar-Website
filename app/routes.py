@@ -7,7 +7,7 @@ from app.forms import LoginForm, RegistrationForm, EditProfileForm, PostForm, \
     ResetPasswordRequestForm, ResetPasswordForm
 from app.models import User, Post
 from app.email import send_password_reset_email
-
+from flask_mail import Mail, Message
 
 
 
@@ -125,6 +125,16 @@ def my_posts():
     return render_template('my_posts.html', title='My Posts', form=form,
                            posts=posts.items, next_url=next_url,
                            prev_url=prev_url)
+
+
+
+@app.route('/process_email', methods=['POST'])
+def process_email():
+    msg = Message('Test', sender='danieldavaris@outlook.com.au', recipients=['danieldavaris@outlook.com.au'])
+    msg.body = 'This is a test email' #Customize based on user input
+    Mail.send(msg)
+
+    return 'done'
 
 
 
