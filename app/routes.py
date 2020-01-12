@@ -4,12 +4,12 @@ from flask_login import login_user, logout_user, current_user, login_required
 from werkzeug.urls import url_parse
 from app import app, db
 from app.forms import LoginForm, RegistrationForm, EditProfileForm, PostForm, \
-    ResetPasswordRequestForm, ResetPasswordForm, ContactForm
+    ResetPasswordRequestForm, ResetPasswordForm
 from app.models import User, Post
-
+from app.email import send_password_reset_email
 from flask_mail import Mail, Message
 
-from .emails import email_activation
+
 
 # calculates the date based on whe nthe user was last logged in ( authenticated)  and records the time in 'utcnow'
 
@@ -86,31 +86,12 @@ def solar_systems():
     return render_template('solar_systems.html', title='Solar Systems')
 
 
-# @app.route('/contact_us')
-# # @login_required
-# def contact_us():
-#     page = request.args.get('page', 1, type=int)
-   
-#     return render_template('contact_us.html', title='Contact Us')
-
-
-
-@app.route('/contact_us', methods=['GET', 'POST'])
+@app.route('/contact_us')
+# @login_required
 def contact_us():
-  form = ContactForm()
- 
-  if request.method == 'POST':
-    if form.validate() == False:
-      flash('All fields are required.')
-      flash('yooooooooooooo')
-      return render_template('contact_us.html', form=form)
-    else:
-      print("name", form.name.data)
-      email_activation(form.name.data, form.email.data, form.subject.data, form.message.data)
-      return render_template('contact_us.html', success=True)
- 
-  elif request.method == 'GET':
-    return render_template('contact_us.html', form=form)
+    page = request.args.get('page', 1, type=int)
+   
+    return render_template('contact_us.html', title='Contact Us')
 
 
 @app.route('/our_customers')
@@ -147,8 +128,13 @@ def my_posts():
 
 
 
+@app.route('/process_email', methods=['POST'])
+def process_email():
+    msg = Message('Test', sender='danieldavaris@outlook.com.au', recipients=['danieldavaris@outlook.com.au'])
+    msg.body = 'This is a test email' #Customize based on user input
+    Mail.send(msg)
 
-
+    return 'done'
 
 
 
