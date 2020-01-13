@@ -36,17 +36,47 @@
         <hr class="my-4">
 
     </div>
+
     <div class=" my_form main container-fluid jumbotron center-block">
         <h1 id="post" name="post" class="form_h lead center-block top_bit jumbotron-heading">Get a quote</h1>
         <hr class="my-4">
-      
-      </div>
+        <!-- <form action="https://formspree.io/danieldavaris@outlook.com.au" method="POST">
+                    <input type="text" name="firstname">
+                    <input type="test" name="lastname">
+                    <input type="submit" value="Send">
+                </form> -->
+        <form id="fs-frm" name="department-contact-form" accept-charset="utf-8" action="https://formspree.io/admin@yassvalleysolar.com.au" method="post">
+            <fieldset id="fs-frm-inputs">
+                <label for="full-name">Full Name</label>
+                <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+
+                <label for="full-name">Contact Number</label>
+                <input type="tel" name="telphone" placeholder="+61 000-000-000 " maxlength="14" title="Ten digits code" required/>
+
+                <label for="email-address">Email Address</label>
+                <input type="email" name="_replyto" id="email-address" placeholder="email@domain.com" required="">
+                <label for="department">System of interest</label>
 
 
-    <h2>Contact</h2>
- 
+                <select name="department" id="department" required="">
+                        <option value="Select" selected="" disabled="">Select</option>
+                        <option value="Residential Solar">Residential Solar</option>
+                        <option value="Commercial Solar">Commercial Solar</option>
+                        <option value="Off Grid Solar">Off Grid Solar</option>
+                        <option value="Battery Storage">Battery Storage</option>
+                        <option value="Energy Efficiency">Energy Efficiency</option>
+                        <option value="Energy Reporting">Energy Reporting</option>
+                        <option value="Solar Pumping">Solar Pumping</option>
+                    </select>
+                <label for="message">Message</label>
+                <textarea rows="5" name="message" id="message" placeholder="How can we help you" required=""></textarea>
+                <input type="hidden" name="_subject" id="email-subject" value="Department Contact Form Submission">
+            </fieldset>
+            <input type="submit" value="Send Message">
+        </form>
+    </div>
+
    
-      <p>Thank you for your message. We'll get back to you shortly.</p>
    
   
    
