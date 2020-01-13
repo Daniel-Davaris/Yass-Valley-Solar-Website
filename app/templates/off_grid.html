@@ -2,7 +2,15 @@
 {% import "bootstrap/wtf.html" as wtf %}
 {% block app_content %}
 
-
+<style>
+    {% if request.endpoint == 'off_grid'  %}
+        #nav-btn{
+            top:15px;
+        }
+    {% else %}
+   
+    {% endif %}
+</style>
 
 <div class="container ">
     <div class="container">
