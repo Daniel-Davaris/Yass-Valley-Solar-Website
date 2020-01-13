@@ -776,7 +776,9 @@
     .in{
         font-size:12px !important;
     }
-    
+    .one-off{
+        font-size:40px !important;
+    }
 } 
 @media (max-width:400px) {
     .r{

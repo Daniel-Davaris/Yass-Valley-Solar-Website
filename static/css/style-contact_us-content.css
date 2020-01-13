@@ -1,66 +1,13 @@
 body{
-    
-}
-
-.top_banner{
-    /* overflow:hidden;
-    width:100vh; */
-    width:100% !important;
-    /* margin-top:115px; */
-}
-
-.top_banner > img{
-    
-    /* margin-top:70px;
-    height:30vh;*/
-    transform: scaleY(6); 
-    overflow:hidden !important; 
-    height:100px;
-    width:100%;
-    /* margin-top:115px; */
-   
-}
-
-.phone{
-    width:100%;
-    height:200px;
-    background-color:blue;
-    position: absolute;
-
-}
-
-.test{
-    font-size:100px;
-    margin-top:200px;
-    margin-left:auto;
-    margin-right:auto;
-    left:0;
-    right:0;
-    
-    position: absolute;
-    border:2px solid green;
-    padding:10px;
-    
+    overflow-x: hidden;
 }
 
 
-.page_content{
-    width:100%;
-    height:500px;
-    background-color:red;
+
 
 }
 
-.contact > h1{
-    font-size:40px;
-    margin-left:100px;
-}
 
-@media (max-width:1000px) {
-    .top_banner > img {
-        transform: scaleX(1.5);
-    }
-} 
 
 .my_form{
     margin-top:-80px;
