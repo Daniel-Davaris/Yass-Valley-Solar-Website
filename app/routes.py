@@ -84,12 +84,6 @@ def solar_systems():
     return render_template('solar_systems.html', title='Solar Systems')
 
 
-# @app.route('/contact_us')
-# # @login_required
-# def contact_us():
-#     page = request.args.get('page', 1, type=int)
-   
-#     return render_template('contact_us.html', title='Contact Us')
 
 
 @app.route('/our_customers')
