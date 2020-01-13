@@ -1,9 +1,9 @@
 from flask_wtf import FlaskForm
-from wtforms import StringField, PasswordField, BooleanField, SubmitField, \
-    TextAreaField
-#instead of top one
 # from wtforms import StringField, PasswordField, BooleanField, SubmitField, \
-#     TextAreaField, TextField, validators, Form
+#     TextAreaField
+# instead of top one
+from wtforms import StringField, PasswordField, BooleanField, SubmitField, \
+    TextAreaField, TextField, validators, Form
 
 from wtforms.validators import ValidationError, DataRequired, Email, EqualTo, \
     Length
