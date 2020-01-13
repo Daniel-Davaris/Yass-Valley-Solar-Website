@@ -71,10 +71,14 @@ import logging
 from logging.handlers import SMTPHandler, RotatingFileHandler
 from flask_migrate import Migrate
 from flask_bootstrap import Bootstrap
+from logging import FileHandler, WARNING
 from config import Config
 
 app = Flask(__name__,static_folder=os.path.abspath('static')) # not quite
+file_handler = FileHandler('errorlog.txt')
+file_handler.setLevel(WARNING)
 
+app.logger.addHandler(file_handler)
 # app.config.from_object(Config) # old
 app.config.from_object('config')
 db = SQLAlchemy(app)
