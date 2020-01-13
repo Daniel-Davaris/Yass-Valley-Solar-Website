@@ -3,21 +3,19 @@ from flask import render_template, flash, redirect, url_for, request
 from flask_login import login_user, logout_user, current_user, login_required
 from werkzeug.urls import url_parse
 from app import app, db
-from app.forms import LoginForm, RegistrationForm, EditProfileForm, PostForm, \
-    ResetPasswordRequestForm, ResetPasswordForm
+# from app.forms import LoginForm, RegistrationForm, EditProfileForm, PostForm, \
+#     ResetPasswordRequestForm, ResetPasswordForm
 from app.models import User, Post
-from app.email import send_password_reset_email
+
 from flask_mail import Mail, Message
 
+#instead of top one 
+from app.forms import LoginForm, RegistrationForm, EditProfileForm, PostForm, \
+    ResetPasswordRequestForm, ResetPasswordForm, ContactForm
 
+from .emails import email_activation
 
-# calculates the date based on whe nthe user was last logged in ( authenticated)  and records the time in 'utcnow'
-
-# @app.before_request
-# def before_request():
-#     if current_user.is_authenticated:
-#         current_user.last_seen = datetime.utcnow()
-#         db.session.commit()        
+   
 
 @app.route('/', methods=['GET', 'POST'])
 @app.route('/home')
@@ -86,12 +84,12 @@ def solar_systems():
     return render_template('solar_systems.html', title='Solar Systems')
 
 
-@app.route('/contact_us')
-# @login_required
-def contact_us():
-    page = request.args.get('page', 1, type=int)
+# @app.route('/contact_us')
+# # @login_required
+# def contact_us():
+#     page = request.args.get('page', 1, type=int)
    
-    return render_template('contact_us.html', title='Contact Us')
+#     return render_template('contact_us.html', title='Contact Us')
 
 
 @app.route('/our_customers')
@@ -126,16 +124,26 @@ def my_posts():
                            posts=posts.items, next_url=next_url,
                            prev_url=prev_url)
 
+# //////////////////////////////////////////////////////////////////////////////
 
+@app.route('/contact_us', methods=['GET', 'POST'])
+def contact_us():
+  form = ContactForm()
+ 
+  if request.method == 'POST':
+    if form.validate() == False:
+      flash('All fields are required.')
+      flash('yooooooooooooo')
+      return render_template('contact_us.html', form=form)
+    else:
+      print("name", form.name.data)
+      email_activation(form.name.data, form.email.data, form.subject.data, form.message.data)
+      return render_template('contact_us.html', success=True)
+ 
+  elif request.method == 'GET':
+    return render_template('contact_us.html', form=form)
 
-@app.route('/process_email', methods=['POST'])
-def process_email():
-    msg = Message('Test', sender='danieldavaris@outlook.com.au', recipients=['danieldavaris@outlook.com.au'])
-    msg.body = 'This is a test email' #Customize based on user input
-    Mail.send(msg)
-
-    return 'done'
-
+# //////////////////////////////////////////////////////////////////////////////
 
 
 @app.route('/login', methods=['GET', 'POST'])

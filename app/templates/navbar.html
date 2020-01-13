@@ -10,7 +10,7 @@
         <nav class="navbar pt-0 navbar-expand-sm navbar-dark ">
             <a class="pt-3 navbar-brand" href="{{url_for('index') }}"><img class="my_logo" src="{{url_for('static', filename='media/new-logo-t.png')}}"></a>
            
-            <div class=" navbar-collapse" id="navbarNav">
+            <div class="navbar-collapse" id="navbarNav">
               <ul class="navbar-nav m-auto">
                     {% if current_user.is_anonymous %}  
                         <!-- do nothing -->
