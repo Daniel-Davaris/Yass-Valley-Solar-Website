@@ -787,3 +787,12 @@ b{
 .big{
     
 }
+
+.add-shadow{
+    -webkit-box-shadow: 10px 10px 45px -15px rgba(128,128,128,1);
+    -moz-box-shadow: 10px 10px 45px -15px rgba(128,128,128,1);
+    box-shadow: 10px 10px 45px -15px rgba(128,128,128,1);
+    /* max-width:400px; */
+    min-width:300px;
+    /* min-height:250px;  */
+}
