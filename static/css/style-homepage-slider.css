@@ -1,5 +1,9 @@
 .body{
     overflow-x: hidden;
+    transition-timing-function: ease-in-out;
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+               background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+               opacity 0.55s ease;
 }
 #carouselExampleIndicators{
     /* border:2px solid red; */
@@ -30,23 +34,22 @@
  
 /* class for the h1 element inside the carosuel slide item */
 .the_title{
-    font-size:60px;
+    font-size:70px;
     margin-bottom:20px;
-    /* font-family:'merocheregular'; */
-    /* font-family:'Decker Bold', Verdana; */
-    /* font-family:'montserratregular'; */
-    /* font-family:'jervinhoregular'; */
-    /* font-family:'coveslight'; */
-    text-transform: ;
+    /* hor vert vlur color  */
+    text-shadow: 2px -3px 20px rgb(110, 110, 110) ;
+    text-shadow: 2px -3px 20px rgba(82, 82, 82, 0.158) ;
     min-width:300px;
     font-weight:500;
+    
     z-index:-2;
     font-family: 'truenoregular';
     
 }
 
 .temp{
-    z-index:999999;
+    z-index:4;
+    padding-bottom:120px;
 }
   
 .carousel-item > img{
@@ -68,9 +71,7 @@
 }
 
 .carousel-caption{
-    /* border:2px solid orange; */
-    bottom:45%;
-    /* z-index: 9999; */
+    /* height:100vh; */
 }
 
 /* class for left button inside carousel caption  */
@@ -84,14 +85,17 @@
     border-radius: 20px;
     border-color:white;
     text-transform: uppercase;
-    font-size:15px;
+    font-size:20px;
     min-width:200px;
-    padding-left:20px;
-    padding-right:20px;
+    padding-left:50px;
+    padding-right:50px;
     margin-bottom:2%;
-    margin-right:10px;
+    /* margin-right:10px; */
+    font-weight:300;
     
-    
+    -webkit-box-shadow: -1px 0px 42px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 0px 42px 0px rgba(0,0,0,0.75);
+    box-shadow: -1px 0px 42px 0px rgba(0,0,0,0.75);
 }
 
 /* class for right button inside carousel caption  */
@@ -104,14 +108,17 @@
     padding-right:50px;
     border-radius: 20px;
     text-transform: uppercase;
-    font-size:15px;
+    font-size:20px;
     min-width:200px;
-    padding-left:20px;
-    padding-right:20px;
+    padding-left:60px;
+    padding-right:60px;
     margin-bottom:2%;
     background-color: rgba(95, 95, 95, 0.459) !important;
-    margin-left:10px;
-    
+    /* margin-left:10px */
+    font-weight:200;
+    -webkit-box-shadow: -1px 0px 42px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 0px 42px 0px rgba(0,0,0,0.75);
+    box-shadow: -1px 0px 42px 0px rgba(0,0,0,0.75);
    
 }
 .c{
@@ -131,7 +138,7 @@
     padding-left:80px;
     padding-right:80px;
     margin-bottom:2%;
-    min-width:300px !important;
+    min-width:300px;
     background-color: rgba(95, 95, 95, 0.459) !important;
     
    
@@ -140,6 +147,9 @@
    background-color:white;
    color:rgb(255, 255, 255);
    box-shadow: 0px 0px 2px 3px #A3C84A;
+   -webkit-box-shadow: -1px 0px 42px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 0px 42px 0px rgba(0,0,0,0.75);
+    box-shadow: -1px 0px 42px 0px rgba(0,0,0,0.75);
 }
 .b:focus{
    outline: none !important;
@@ -170,6 +180,9 @@
     /* background-color:white; */
     /* color:black; */
     box-shadow: 0px 0px 2px 3px #A3C84A;
+    -webkit-box-shadow: -1px 0px 42px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 0px 42px 0px rgba(0,0,0,0.75);
+    box-shadow: -1px 0px 42px 0px rgba(0,0,0,0.75);
  }
 .a:focus{
     outline: none !important;
@@ -246,7 +259,6 @@
      height:600px;
  }
 
-
-
-
-
+.slider-con{
+    /* margin-top:10vh; */
+}

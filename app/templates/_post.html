@@ -1,17 +1,15 @@
-    <table style="border:2px solid grey;" padding:1px; margin:px;" class="table table-hover">
-        <tr style="padding:px;">
-            <td style="">
-                <a style="padding-bottom:px;" href="{{ url_for('user', username=post.author.username) }}">
-                    
+    <table class="table table-hover">
+        <tr>
+            <td>
+                <a href="{{ url_for('user', username=post.author.username) }}">
                     <img style="border-radius: 55px; padding:px;" src="{{ post.author.avatar(70) }}" />
-
                 </a>
             </td>
-            <td style=" font-size:15px;">
-                <a style="font-size: 20px;"ref="{{ url_for('user', username=post.author.username) }}">
+            <td>
+                <a href="{{ url_for('user', username=post.author.username) }}">
                     {{ post.author.username }} 
-                    <h1 style="font-size:13px;"> Yass Valley Solar Managing Director </h1>
-                    <h1 style="font-size:15px">Blogpost: <span style="color:green">{{ post.timetamp }}</span></h1>
+                    <h1> Yass Valley Solar Managing Director </h1>
+                    <h1> Blogpost: <span style="color:green;float:left">{{ post.timetamp }}</span></h1>
                     
                 </a>
                  

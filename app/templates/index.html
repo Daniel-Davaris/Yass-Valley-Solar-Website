@@ -11,80 +11,122 @@
         <li class=" im inner">
 
 
-                    <div id="carousel-example" class="carousel slide carousel-fade" data-interval="3000" data-ride="carousel">
+                    <div style="transition-timing-function: ease-in-out;margin-right:-12px;"id="carousel-example" class="carousel slide carousel-fade " data-interval="3000" data-ride="carousel">
                             <ol class="carousel-indicators">
                                 <li data-target="#carousel-example" data-slide-to="0" class="active"></li>
                                 <li data-target="#carousel-example" data-slide-to="1"></li>
                                 <li data-target="#carousel-example" data-slide-to="2"></li>
                             </ol>
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <img src="{{url_for('static', filename='media/e.jpg') }}" class="d-block w-100" alt="img1">
-                                    <div class="carousel-caption">
-                                            <div class="container h-100">
-                                                    <div class=" slider-con row h-100 align-items-center">
-                                                        <div class="container temp col-12 text-center">
-                                                            <h1 class="the_title display-4">Own your energy</h1>
-                                                            <a class="a btn " href="{{ url_for('off_grid') }}" role="button">Off Grid Solar</a>
-                                                            <a class="b btn " href="{{ url_for('solar_systems') }}" role="button">Solar Systems</a>
-                                                        </div>
-                
-                                                        <div class=" col align-items-center">
-                                                            <a class="c btn " href="{{ url_for('.contact_us', _anchor='post') }}" role="button">Get a quote</a>
-                                                        </div>
-                                                    </div>
-                
-                                                </div>
+
+
                             
+                            <div style="transition-timing-function: ease-in-out;"class="carousel-inner">
+                                <div style="transition-timing-function: ease-in-out;"class="carousel-item active">
+                                    <img style="transition-timing-function: ease-in-out;"src="{{url_for('static', filename='media/e.jpg') }}" class="d-block w-100" alt="img1">
+                                    <div style="background-color"class="carousel-caption">
+                                            <div style="margin-bottom:220px;"class="container h-100">
+                                                    <div class="slider-con row align-items-center">
+                                                        <div class="container temp col-12 text-center">
+                                                           
+                                                            <h1 class=" the_title display-4">Own your energy</h1>
+                                                            <a class="a mr-1 btn " href="{{ url_for('off_grid') }}" role="button">Off-Grid Solar</a>
+                                                            
+                                                            <a class="b ml-1 btn " href="{{ url_for('solar_systems') }}" role="button">Our Services</a>
+                                                            <div class=" col p-1 align-items-center">
+                                                                <a class="c btn " href="{{ url_for('.contact_us', _anchor='post') }}" role="button">Get a quote</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    
+                                            </div>
+
+                                            <div style="background-image: linear-gradient(to right,rgba(68, 68, 68, 0.01),rgba(68, 68, 68, 0.1), rgba(68, 68, 68, 0.3),rgba(68, 68, 68, 0.4),rgba(68, 68, 68, 0.3),rgba(68, 68, 68, 0.1), rgba(68, 68, 68, 0.01))" class="carousel-caption d-none d-md-block">
+                                                <h1 class="pt-4 display-2 u">Keeping you up to date</h1>
+                                                
+                                                <div class="row">
+                                                    <div class="col-2">
+                                                        <img style="max-width:100px" class="rounded-circle pt-2 pl-2 card-img"src="{{ first.author.avatar(70)}}"/>
+                                                    </div>
+                                                    
+                                                    <div class="col-8">
+                                                            <h6 style="float:left; text-align:left;"class="">{{first.author.username}} -&nbsp {{first.timestamp}}</h6>
+                                                            <br>
+                                                            <br>
+                                                            <p style=""class="lead">{{first.body}}</p>
+                                                            <br>
+                                                            <br>
+                                                            
+                                                            <p>
+                                                                <a class="btn" href="{{ url_for('blog') }}" role="button">See all blog posts</a>
+                                                            </p>
+                                                    </div>
+                                                    <div class="col-2">
+                                                        </div>
+                                                </div>
+                                            </div>
+
+                                            
                                     </div>
+                                   
                                 </div>
+             
+
+
+                                <div style="transition-timing-function: ease-in-out;"class="carousel-item">
+                                    <img style="transition-timing-function: ease-in-out;"src="{{url_for('static', filename='media/maybe9.jpg') }}" class="d-block w-100" alt="img1">
+                                    <div style="background-color"class="carousel-caption">
+                                            <div style="margin-bottom:220px;"class="container h-100">
+                                                    <div class="slider-con row align-items-center">
+                                                        <div class="container temp col-12 text-center">
+                                                           
+                                                            <h1 class=" the_title display-4">Own your energy</h1>
+                                                            <a class="a mr-1 btn " href="{{ url_for('off_grid') }}" role="button">Off-Grid Solar</a>
+                                                            
+                                                            <a class="b ml-1 btn " href="{{ url_for('solar_systems') }}" role="button">Our Services</a>
+                                                            <div class=" col p-1 align-items-center">
+                                                                <a class="c btn " href="{{ url_for('.contact_us', _anchor='post') }}" role="button">Get a quote</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    
+                                            </div>
+
+                                            <div style="background-image: linear-gradient(to right,rgba(68, 68, 68, 0.01),rgba(68, 68, 68, 0.1), rgba(68, 68, 68, 0.3),rgba(68, 68, 68, 0.4),rgba(68, 68, 68, 0.3),rgba(68, 68, 68, 0.1), rgba(68, 68, 68, 0.01))" class="carousel-caption d-none d-md-block">
+                                                <h1 class="pt-4 display-2 u">Keeping you up to date</h1>
+                                                
+                                                <div class="row">
+                                                    <div class="col-2">
+                                                        <img style="max-width:100px" class="rounded-circle pt-2 pl-2 card-img"src="{{ first.author.avatar(70)}}"/>
+                                                    </div>
+                                                    
+                                                    <div class="col-8">
+                                                            <h6 style="float:left; text-align:left;"class="">{{first.author.username}} -&nbsp {{first.timestamp}}</h6>
+                                                            <br>
+                                                            <br>
+                                                            <p style=""class="lead">{{first.body}}</p>
+                                                            <br>
+                                                            <br>
+                                                            
+                                                            <p>
+                                                                <a class="btn" href="{{ url_for('blog') }}" role="button">See all blog posts</a>
+                                                            </p>
+                                                    </div>
+                                                    <div class="col-2">
+                                                        </div>
+                                                </div>
+                                            </div>
+
+                                            
+                                    </div>
+                                   
+                                </div>
+             
                             
-                                <div class="carousel-item">     
-                                    <img style="width:100vw; transform: scaleX(1.5); transform:scaleY(1.1)"src="{{url_for('static', filename='media/maybe9.jpg') }}" class="" alt="img2">
-                                    <div class="carousel-caption">
-                                            <div class="container h-100">
-                                                    <div class=" slider-con row h-100 align-items-center">
-                                                        <div class="container temp col-12 text-center">
-                                                            <h1 class="the_title display-4">Own your energy</h1>
-                                                            <a class="a btn " href="{{ url_for('off_grid') }}" role="button">Off Grid Solar</a>
-                                                            <a class="b btn " href="{{ url_for('solar_systems') }}" role="button">Solar Systems</a>
-                                                        </div>
-                
-                                                        <div class=" col align-items-center">
-                                                            <a class="c btn " href="{{ url_for('.contact_us', _anchor='post') }}" role="button">Get a quote</a>
-                                                          
-                                                          
-                                                        </div>
-                                                        
-                                                        
-                                                    </div>
-                                                    <!-- <h1 style="margin-bottom:-200px;font-size:100px"class="Display-1"> 2019 warpped up</h1> -->
-                                                </div>
-                                         
-                                     
-                                    </div>
-                                    
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="{{url_for('static', filename='media/f.jpg') }}" class="d-block w-100" alt="img3">
-                                    <div class="carousel-caption">
-                                            <div class="container h-100">
-                                                    <div class=" slider-con row h-100 align-items-center">
-                                                        <div class="container temp col-12 text-center">
-                                                            <h1 class="the_title display-4">Own your energy</h1>
-                                                            <a class="a btn " href="{{ url_for('off_grid') }}" role="button">Off Grid Solar</a>
-                                                            <a class="b btn " href="{{ url_for('solar_systems') }}" role="button">Solar Systems</a>
-                                                        </div>
-                
-                                                        <div class=" col align-items-center">
-                                                            <a class="c btn " href="{{ url_for('.contact_us', _anchor='post') }}" role="button">Get a quote</a>
-                                                        </div>
-                                                    </div>
-                
-                                                </div>
-                                       
-                                    </div>
-                                </div>
+
+
+
                             </div>
                             <a class="carousel-control-prev" href="#carousel-example" role="button" data-slide="prev">
                                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -98,22 +140,64 @@
 
 
         </li>
+       
         <li class="inner blog_sec">
-            <div class="anb">
-                <h1 class="display-3 u">Keeping you up to date</h1>
-                <!-- <h1>Hi, {{ current_user.username }}!</h1> -->
-                <div class="container out-b">
-                    {% if form %} {{ wtf.quick_form(form) }}
-                    <br> {% endif %} {% for post in posts %} {% include '_post.html' %} {% endfor %}
-                    <div class="container h-100">
-                        <div class="row h-100 align-items-center">
-                            <div class="container temp col-12 text-center">
-                                <a class="btn see_all" href="{{ url_for('blog') }}" role="button">see all blog posts</a>
-                            </div>
+            <div class="pt-5 mb-5 pb-5  px-3 card-deck">
+                <div class="add-shadow card mb-3">
+                        <div class="row no-gutters">
+                        <div class="text-center col-sm-3 col-md-4">
+                                <img style="max-width:155px" class="pt-2 pl-2 card-img"src="{{url_for('static', filename='media/battery-1.jpg') }}"/>
                         </div>
-                    </div>
+                        <div class="col-sm-9 col-md-8">
+                        <div class="card-body">
+                        <h6 class="card-title">Lead Acid Gel (VRLA) </h6>
+                        <p class="card-text">The battery of choice for off grid systems with unrivalled reliability and a long, maintenance free lifespan, capable of delivering large amounts of power.</p>
+                        </div>
+                        </div>
+                        </div>
                 </div>
-            </div>
+                <div class="add-shadow card mb-3">
+                        <div class="row no-gutters">
+                        <div class="text-center col-sm-3 col-md-4">
+                                <img style="max-width:155px" class="pt-2 pl-2 card-img"src="{{url_for('static', filename='media/battery-4.jpg') }}"/>
+                        </div>
+                        <div class="col-sm-9 col-md-8">
+                        <div class="card-body">
+                        <h6 class="card-title">Absorbent Glass Matt (AGM)</h6>
+                        <p class="card-text">Lead acid battery with a lower price point, well suited to smaller systems with periodic usage.</p>
+                        </div>
+                        </div>
+                        </div>
+                </div>
+                <div class="add-shadow card mb-3">
+                        <div class="row no-gutters">
+                        <div class="text-center col-sm-3 col-md-4">
+                                <img style="max-width:155px" class="pt-2 pl-2 card-img"src="{{url_for('static', filename='media/battery-2.jpg') }}"/>
+                        </div>
+                        <div class="col-sm-9 col-md-8">
+                        <div class="card-body">
+                        <h6 class="card-title">Lithium Iron Phosphate (LiFePO4)</h6>
+                        <p class="card-text">New technology with a similar lifespan to lead acid gel batteries that provide greater flexibly in the incremental addition of new batteries.</p>
+                        </div>
+                        </div>
+                        </div>
+                </div>
+                <div class="add-shadow card mb-3">
+                        <div class="row no-gutters">
+                        <div class="text-center col-sm-3 col-md-4">
+                                <img style="max-width:155px" class="pt-2 pl-2 card-img"src="{{url_for('static', filename='media/battery-3.jpg') }}"/>
+                        </div>
+                        <div class="col-sm-9 col-md-8">
+                        <div class="card-body">
+                        <h6 class="card-title">Flow Batteries</h6>
+                        <p class="card-text">Alternative to traditional battery types with the ability to discharge without damage and without loss of capacity over their lifespan at the cost of affordability.</p>
+                        </div>
+                        </div>
+                        </div>
+                </div>
+                
+        
+        </div>
 
         </li>
         <li class="inner uni">
