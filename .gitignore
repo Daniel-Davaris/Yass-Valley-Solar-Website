@@ -1,5 +1,6 @@
 __pycache__/
 logs/
+dart-sass
 .vscode/
 vscode/
 setting.json
