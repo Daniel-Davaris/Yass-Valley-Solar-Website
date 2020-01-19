@@ -53,7 +53,7 @@ body{
     padding-top:15%;
     background-image: url("../media/shed.jpg");
     background-size: cover;
-    background-color:rgba(255, 255, 255, 0.486);
+    /* background-color:rgba(255, 255, 255, 0.486); */
     /* border:5px solid */
     /* min-width:130vh !important; */
     margin-bottom:200px;
@@ -348,3 +348,25 @@ body{
    
 
 }
+.blog_sec > .card-deck {
+    margin-left:auto !important;
+    margin-right:auto !important;
+}
+.blog_sec > .card-deck > .card{
+    background-color: rgb(181, 190, 49);
+}
+.blog_sec > .card-deck > .card > .card-body{
+    color:white;
+}
+
+.add-shadow{
+    -webkit-box-shadow: 10px 10px 45px -15px rgba(128,128,128,1);
+    -moz-box-shadow: 10px 10px 45px -15px rgba(128,128,128,1);
+    box-shadow: 10px 10px 45px -15px rgba(128,128,128,1);
+    /* max-width:400px; */
+    
+    min-width:150px;
+    max-width:300px;
+}
+
+.c

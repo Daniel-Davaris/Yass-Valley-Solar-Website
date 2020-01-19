@@ -275,7 +275,10 @@
     .around{
         /* height:600px !important; */
     }
-    
+    .index-cards > .card{
+        max-width:200px !important;
+        
+    }
 } 
 
 @media (max-width:995px) {
@@ -599,6 +602,16 @@
     }
     
 }
+
+@media (max-width:575px) {
+    .index-cards > .card{
+        margin-left:auto !important;
+        margin-right:auto !important;
+        min-width:300px !important;
+    }
+
+}
+
 @media (max-width:530px) {
     .a,.b {
         width:250px;

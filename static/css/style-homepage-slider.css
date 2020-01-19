@@ -72,6 +72,17 @@
 
 .carousel-caption{
     /* height:100vh; */
+    background-image: linear-gradient(to right,
+                                    rgba(68, 68, 68, 0.01),
+                                    rgba(68, 68, 68, 0.2),
+                                    rgba(68, 68, 68, 0.3),
+                                     rgba(68, 68, 68, 0.3),
+                                     rgba(68, 68, 68, 0.3),
+                                     rgba(68, 68, 68, 0.3),
+                                     rgba(68, 68, 68, 0.3), 
+                                     rgba(68, 68, 68, 0.2), 
+                                     rgba(68, 68, 68, 0.01)
+                                     )
 }
 
 /* class for left button inside carousel caption  */
@@ -261,4 +272,19 @@
 
 .slider-con{
     /* margin-top:10vh; */
+}
+
+.card-img{
+    border:3px solid white;
+    padding:0 !important;
+}
+
+.add-shadow{
+    -webkit-box-shadow: 10px 10px 45px -15px rgba(128,128,128,1);
+    -moz-box-shadow: 10px 10px 45px -15px rgba(128,128,128,1);
+    box-shadow: 10px 10px 45px -15px rgba(128,128,128,1);
+    /* max-width:400px; */
+    
+   
+    max-width:300px;
 }
