@@ -1,0 +1,14 @@
+$my_color: white;
+$my_font: Verdana;
+$my_background:black;
+$color2: blue;
+
+body{
+    color: $my_color;
+    font-family: $my_font;
+    background-color: $my_background;
+}
+
+h1,p {
+    color: $color2
+}
