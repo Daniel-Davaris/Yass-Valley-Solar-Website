@@ -48,8 +48,7 @@
 }
 
 .temp{
-    z-index:4;
-    padding-bottom:120px;
+   
 }
   
 .carousel-item > img{
@@ -291,7 +290,7 @@
 }
 
 .border-up{
-    border:2px solid white;
-    background-color:rgba(36, 36, 36, 0.568);
+    border:1px solid white;
+    background-color:rgba(36, 36, 36, 0.353);
     border-radius: 5px;
 }
