@@ -70,19 +70,7 @@
 }
 
 .carousel-caption{
-    /* height:100vh; */
-    /* background-image: linear-gradient(to right,
-                                    rgba(68, 68, 68, 0.01),
-                                    rgba(68, 68, 68, 0.2),
-                                    rgba(68, 68, 68, 0.3),
-                                     rgba(68, 68, 68, 0.3),
-                                     rgba(68, 68, 68, 0.3),
-                                     rgba(68, 68, 68, 0.3),
-                                     rgba(68, 68, 68, 0.3), 
-                                     rgba(68, 68, 68, 0.2), 
-                                     rgba(68, 68, 68, 0.01)
-                                     ) */
-    
+    bottom:20vh;
 }
 
 /* class for left button inside carousel caption  */
