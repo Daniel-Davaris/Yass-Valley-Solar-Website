@@ -140,6 +140,9 @@
 } 
 
 @media (max-width:1000px) {
+    .navbar-collapse{
+        display:none;
+    }
     .carousel-item > img {
         transform: scaleX(1.5);
     }
@@ -493,7 +496,7 @@
         /* margin-left: 10% !important; */
     }
    .bottom_section{
-       height:140px !important;
+       /* height:140px !important; */
    }
    .in{
     font-size:13px !important;

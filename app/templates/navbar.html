@@ -11,47 +11,115 @@
             <a class="pt-3 navbar-brand" href="{{url_for('index') }}"><img class="my_logo" src="{{url_for('static', filename='media/new-logo-t.png')}}"></a>
            
             <div class="navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav m-auto">
+              <ul id="navbar-nav"class="navbar-nav m-auto">
                     {% if current_user.is_anonymous %}  
                         <!-- do nothing -->
                     {% else %}
+                   
                         <li class="hide nav-item">
                             <a class="nav-link" id="side-a" href="{{ url_for('my_posts') }}">My Posts <span class="sr-only">(current)</span></a>
+                            
+                            
                         </li>
+                        
                     {% endif %}
-                    <li class="hide nav-item">
+                    <li class="hide nav-item nav-item-a">
+                        
                         <a class="nav-link" id="side-a" href="{{ url_for('index') }}">Home</a>
+                     
                     </li>
                     <li class="hide nav-item">
                         <a class="nav-link" id="side-a" href="{{ url_for('off_grid') }}">Off Grid </a>
+                     
                     </li>
-                    <li class="hide nav-item">
+                    <li class="hide nav-item dropdown">
+                     
+                        <button id="side-a" class="nav-link dropbtn" onclick="myFunction()">Services
+                          <i class="fa fa-caret-down"></i>
+                          
+                        </button>
+                        
+                        <div class="dropdown-content" id="myDropdown">
+                          <a href="{{ url_for('solar_systems') }}">Our Services</a>
+                          <a href="{{ url_for('monitoring') }}">Monitoring Options</a>
+                          
+                        </div>
+                    </li> 
+                    <!-- <li class="hide nav-item">
                         <a class="nav-link" id="side-a" href="{{ url_for('solar_systems') }}">Services</a>
-                    </li>
+                    </li> -->
                     <li class="hide nav-item">
                         <a class="nav-link" id="side-a" href="{{ url_for('our_team') }}">Our Team</a>
+                     
                     </li>
                     <li class="hide nav-item">
                         <a class="nav-link" id="side-a" href="{{ url_for('blog') }}">Blog</a>
+                        
                     </li>
                     <li class="hide nav-item">
                         <a class="nav-link" id="side-a" href="{{ url_for('our_customers') }}">Our Customers</a>
+                     
                     </li>
                     
                     <li class="hide nav-item">
                         <a class="nav-link" id="side-a" href="{{ url_for('contact_us') }}">Contact Us </a>
+                        
                     </li>
                     {% if current_user.is_anonymous %}
                         <!-- do nothing -->
                     {% else %}
                         <li class="hide nav-item">
                             <a class="nav-link" id="side-a" href="{{ url_for('logout') }}">Logout</a>
+                            
                         </li>
                     {% endif %}
                    
             
               </ul>
             </div>
+
+
+            {% if request.endpoint == 'solar_systems'  %}
+            <script>
+                
+               
+                $(".dropdown").on('click', function(){
+                        document.getElementById("myDropdown").classList.toggle("show");
+                });
+            </script>
+            
+            {% else %}
+            {% endif %}
+            <script>
+                /* When the user clicks on the button, 
+                toggle between hiding and showing the dropdown content */
+            
+
+
+                function myFunction() {
+                    
+                
+                document.getElementById("myDropdown").classList.toggle("show");
+                }
+                $(document).ready(function() {
+                    $(".dropdown").mouseleave(function() {
+                        $(".dropdown-content").removeClass("show");
+
+                    });
+                });
+                
+                // Close the dropdown if the user clicks outside of it
+                window.onclick = function(e) {
+                  if (!e.target.matches('.dropbtn')) {
+                  var myDropdown = document.getElementById("myDropdown");
+                    if (myDropdown.classList.contains('show')) {
+                      myDropdown.classList.remove('show');
+                    
+                    }
+                  }
+                }
+              
+                </script>
              <!-- Hamburger nav inside li-->
              <div id="nav-btn" class="special nav-item">
                 <input type="checkbox" />
@@ -76,7 +144,10 @@
                         <a id="side-a" href="{{ url_for('off_grid') }}">Off Grid </a>
                     </li>
                     <li>
-                        <a id="side-a" href="{{ url_for('solar_systems') }}">Services</a>
+                         <a style="color:black;text-decoration: none;"id="slide-a" href="{{ url_for('solar_systems') }}">Our Services</a>
+                    </li> 
+                    <li>
+                        <a style="color:black;text-decoration: none;" id="slide-a" href="{{ url_for('monitoring') }}">Monitoring Options</a>
                     </li>
                     <li>
                         <a id="side-a" href="{{ url_for('our_team') }}">Our Team</a>

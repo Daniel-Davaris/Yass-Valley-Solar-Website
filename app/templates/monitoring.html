@@ -1,0 +1,66 @@
+{% extends "base.html" %} 
+{% import "bootstrap/wtf.html" as wtf %} 
+{% block app_content %}
+
+
+  
+        <!-- <img src="{{url_for('static', filename='media/slide4.jpg') }}"> -->
+    
+        <div style='padding:180px 0px 100px 0px'class="container">
+            <h1 id="e" name="e"class="pl-5  title lead center-block jumbotron-heading text-align-center">Monitoring Options  </h1>
+            <hr class="bot">
+            <div class="container">
+                    
+                    <div class="pl-3 row">
+                            <div class="col-md-6 ">
+                                    <img class="img-fluid" alt="image"src="{{url_for('static', filename='media/sm.jpg') }}" />
+                            </div>
+                            <div class="col-md-6 ">
+                                <div class="row">
+                                    <div class="pt-3 col-12">
+                                        <h5 class='float-sm-center'>Level 1 Monitoring:</h5>
+                                        <p class="mb-0">This feature enables you to monitor the solar production only. To enable this feature, it is
+                                            essential to have an internet connection at your property. Our team provides connection of the inverter
+                                            to your WiFi, however if this is not available at the inverter location, then one of the following can be used:
+
+                                    
+                                        </p>
+                                    </div>
+                                    <div class="mt-2 col-12 ">
+                                        <ul class="list-group">
+                                                <li class="list-group-item">LAN cable connection - $150</li>
+                                                <li class="list-group-item">4G Modem - $250 + data plan</li>
+                                                <li class="list-group-item">Wi-Fi Extender - $100</li>
+                                        </ul>
+                                </div>
+                                   
+                                </div>
+                            </div>
+                           
+                           
+                            <div class="pt-3 pb-2 col-12 ">
+                                <h5 class='pt-3 float-sm-center'>Level 2 Monitoring:</h5>
+                                <p class="mb-0">This monitoring feature enables you to monitor your solar production, your electricity consumption and your grid
+                                    export/import. This feature is best if you wish to monitor your daily usage and to maximise the benefits of the available
+                                    solar system. This option is also required in some cases where export limitation is required by the supply authority. Please
+                                    contact us to discuss this feature or for more information. 
+
+
+                            
+                                </p>
+                            </div>
+    
+                    </div>
+                    
+                  
+                                                    
+                  
+                    
+            </div>
+        
+        </div>
+      
+ 
+
+{% include 'footer.html' %} 
+{% endblock %}

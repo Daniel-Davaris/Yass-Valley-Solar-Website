@@ -1,20 +1,20 @@
 {% extends "base.html" %} 
 {% import "bootstrap/wtf.html" as wtf %} 
 {% block app_content %}
-<div style="height:110vh;"class="container-fluid">
+<div style=""class="container-fluid">
     <br>
     <br>
     <br>
     <br>
-    <div class="container" style="padding-top:15vh">
+    <div class="p-3 container" style="padding-top:15vh">
         
            
-            <div class="card-deck">
+            <div class="my-5card-deck">
                 {% for post in posts %}
                     {% include '_post2.html' %}
                 {% endfor %}
             </div>
-            <nav aria-label="...">
+            <nav class="m-5" aria-label="...">
                 <ul style="display:inline-block"class="pager">
                     <li style="display:inline"class="previous{% if not prev_url %} disabled{% endif %}">
                         <a href="{{ prev_url or '#' }}">

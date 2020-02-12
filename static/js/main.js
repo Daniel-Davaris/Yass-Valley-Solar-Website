@@ -13,6 +13,9 @@ $(document).ready(function() {
 
 
 
+
+
+
     $("window").scroll(function() {
         alert("yesss boiiiu")
         console.log("yes")

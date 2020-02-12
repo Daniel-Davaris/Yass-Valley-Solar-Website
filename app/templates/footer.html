@@ -1,8 +1,4 @@
-{% if request.endpoint == 'index' or request.endpoint == 'solar_systems' or request.endpoint == 'blog' %}
-<footer class="under-slide footer-container font-small unique-color-dark pt-4">
-{% else %}
-<footer class="footer-container font-small unique-color-dark pt-4"></footer>
-{% endif %}
+
     <div class=" top_section row justify-content-center align-items-center">
         
             <ul class="list-unstyled list-inline text-center">
@@ -29,9 +25,9 @@
                 </ul>
         </div>
 
-        <div class="col center-block justify-content-center align-items-center">
-                <h1 class="copyright">© <span class="show-c">YVS </span><span class="hide-c">2019 Yass Valley Solar </span></h1>
-                <h1 style="text-align:center"class="center-block"><a style="color:rgb(202, 202, 202); min-width:100px;font-size:16px;text-align:center; "href="{{ url_for('tandc') }}">Terms and conditions</a></h1>
+        <div class="col p-0 center-block justify-content-center align-items-center">
+                <h1 class="copyright">© <span class="show-c">YVS </span><span class="hide-c">2020 Yass Valley Solar </span></h1>
+                
         </div>
         <div class="col">
                 <ul class="socials list-unstyled list-inline text-center">
@@ -45,6 +41,9 @@
                         <a href="https://www.linkedin.com/in/timothy-davaris-7ba47799/"><img class="social" src="{{url_for('static', filename='media/li-icon.png') }}" /></a>
                     </li>
                 </ul>
+        </div>
+        <div class="col-12 mb-3">
+            <h1  style="text-align:center"class="p-0 tnc center-block"><a style="color:rgb(202, 202, 202); min-width:100px;font-size:16px;text-align:center; "href="{{ url_for('tandc') }}">Terms and conditions</a></h1 style="margin-top:-50px;">
         </div>
 
 

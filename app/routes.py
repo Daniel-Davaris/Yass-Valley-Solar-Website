@@ -57,6 +57,11 @@ def blog():
 def tandc():
     return render_template('tandc.html', title='Terms and conditions')
 
+@app.route('/monitoring')
+def monitoring():
+    return render_template('monitoring.html', title='Monitoring')
+
+
 
 
 

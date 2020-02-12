@@ -1,7 +1,7 @@
 
 
 .footer-container{
-    background-color:rgb(255, 0, 0);
+    /* background-color:rgb(255, 0, 0); */
     width:100%;
     bottom:0;
     padding:0px !important;
@@ -10,10 +10,10 @@
     overflow-x: hidden !important
 }
 .under-slide{
-    margin-top:-30vh;
+    /* margin-top:-30vh; */
 }
 .under-slide2{
-    margin-top:-35.5vh;
+    /* margin-top:-35.5vh; */
 }
 .top_section{
     background-color:rgb(87, 87, 87);
@@ -23,9 +23,12 @@
 }
 .bottom_section{
     background-color:rgb(66, 66, 66);
-    height:200px;
-    min-height:50px;
+    /* height:200px; */
+    min-height:220px;
     
+}
+.bottom_section > .col{
+    max-height:50px;
 }
 .my-btn{
     border:none;
@@ -84,3 +87,11 @@
 .socials{
     min-width:140px;
 }
+
+
+@media only screen and (max-width: 3400px) {
+    .tnc{
+        font-size:10px;
+        
+    }
+  }
