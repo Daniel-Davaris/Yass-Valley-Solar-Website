@@ -53,10 +53,6 @@ def blog():
     return render_template('blog.html', title='Blog', posts=posts.items,
                            next_url=next_url, prev_url=prev_url)
 
-@app.route('/termsandconditions')
-def tandc():
-    return render_template('tandc.html', title='Terms and conditions')
-
 @app.route('/monitoring')
 def monitoring():
     return render_template('monitoring.html', title='Monitoring')
