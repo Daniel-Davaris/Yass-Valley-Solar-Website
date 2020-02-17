@@ -77,7 +77,7 @@
                                         <div class="carousel-caption">
                                             <div class="container">
                                                     <div class="slider-con row align-items-center">
-                                                        <div class="container temp col-12 text-center">
+                                                        <div class="container p-0  temp col-12 text-center">
                                                             
                                                             <h1 class="the_title display-4">Own your energy</h1>
                                                             <a class="a mr-1 btn " href="{{ url_for('off_grid') }}" role="button">Off-Grid Solar</a>
@@ -196,40 +196,39 @@
         <li class="inner blog_sec">
             
 
-           
-            <div class="container index-cards card-deck">
+           <div class="container">
+            <div class="pb-5 row feature">
 
-                <div class="md-12 pt-3 text-center add-shadow card mb-3">
-                        <img style="max-width:155px" class="mx-auto pt-4 pl-2 card-img-top"src="{{url_for('static', filename='media/marker1.png') }}"/>
-                        <div class="card-body mt-4 ">
-                            <h5 class="card-title">Local + Total In house.</h5>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-3">
+                        <div class="f-con mb-4">
+                            <img class=""src="{{url_for('static', filename='media/marker1.png') }}"/>
+                            <h5 class="pl-2 ">Local + Total In house.</h5>
                         </div>
                 </div>
                 
-
-                <div class="md-12 pt-3 text-center add-shadow card mb-3">
-                        <img style="max-width:155px" class="mx-auto pt-4 pl-2 card-img-top"src="{{url_for('static', filename='media/marker2.png') }}"/>
-                        <div class="card-body mt-4 ">
-                            <h5 class="card-title">10 year workmanship + ongoing support</h5>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-3">
+                        <div class="f-con mb-4">
+                            <img class=""src="{{url_for('static', filename='media/marker2.png') }}"/>
+                            <h5 class="pl-2">10 year workmanship + ongoing support</h5>
                         </div>
                 </div>
 
-                <div class="md-12 pt-3 text-center add-shadow card mb-3">
-                        <img style="max-width:155px" class="mx-auto pt-4 pl-2 card-img-top"src="{{url_for('static', filename='media/marker3.png') }}"/>
-                        <div class="card-body mt-4 ">
-                            <h5 class="card-title">25 years experience in electrical and solar</h5>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-3">
+                        <div class="f-con mb-4">
+                            <img class=""src="{{url_for('static', filename='media/marker3.png') }}"/>
+                            <h5 class="pl-2">25 years experience in electrical and solar</h5>
                         </div>
                 </div>
-                <div class="md-12 pt-3 text-center add-shadow card mb-3">
-                        <img style="max-width:155px" class="mx-auto pt-4 pl-2 card-img-top"src="{{url_for('static', filename='media/marker4.png') }}"/>
-                        <div class="card-body mt-4">
-                            <h5 class="card-title">Premium Products +  Official Partners with SunPower and Tesla</h5>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-3">
+                        <div class="f-con mb-4">
+                            <img class=""src="{{url_for('static', filename='media/marker4.png') }}"/>
+                            <h5 class="pl-2">Premium Products +  Official Partners with SunPower and Tesla</h5>
                         </div>
                 </div>
                 
         
         </div>
-    
+    </div>
 
         </li>
         <li class="inner uni">
@@ -344,10 +343,10 @@
         </li>
 
         <li class="inner back">
-            <div class="cus-rev container">
+            <div class="cus-rev">
                     <div class=" row">
-                        <div class="testi align-center">
-                            <h1 id="a" name="a" class="titlenew lead  jumbotron-heading ">Customer Reviews</h1>
+                        <div class="testi align-center container">
+                            <h1 id="a" name="a" class="titlenew lead  jumbotron-heading ">Providing quality service</h1>
                             <br>
                             <p class="ppp " style="color:white; font-size:20px;"><i class="ppp">"The installation was seamless and the system has been perfect. It was fabulous working with Yass Valley Solar and I
                                             am delighted to have a quality Yingli Solar solution that not only facilitates the production of our solar energy 
@@ -355,6 +354,7 @@
                                             <br>
                                             <br></i>
                             </p>
+                           
                         </div>
                     </div>
 
@@ -363,13 +363,19 @@
                             <p class="cen " style="text-align:center !important;"> ~ Rowena Abbey, Board Member, Yass Valley Aged Care</p>
                         </div>
                     </div>
-
+                    <br>
+                    <br>
             </div>
+            <br>
+            <br>
+            <br>
+                    {% include 'footer.html' %} 
+
+           
 
         </li>
     </ul>
     
-    {% include 'footer.html' %} 
 </div>
 
 

@@ -12,7 +12,9 @@
     
 }
 
-
+.scroller{
+    margin-bottom:0px !important;
+}
 .carousel-inner{
     /* border:2px solid blue; */
     /* overflow: hidden; */
@@ -70,7 +72,7 @@
 }
 
 .carousel-caption{
-    bottom:20vh;
+    bottom:5vh;
 }
 
 /* class for left button inside carousel caption  */
@@ -281,4 +283,8 @@
     border:1px solid white;
     background-color:rgba(36, 36, 36, 0.353);
     border-radius: 5px;
+}
+
+.cus-rev{
+    min-height:100vw !important;
 }

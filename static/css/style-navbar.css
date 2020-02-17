@@ -50,7 +50,7 @@
 }
 
 .navbar {
-    padding-bottom:10px;
+    /* padding-bottom:10px; */
     margin-bottom:0px;
     /* text-align: center; */
     z-index:9999;
@@ -329,6 +329,15 @@
   transition-duration: 0.5s;
   transition-delay: 0.5s;
 }
+.dropbtn:active{
+  background-color:rgba(255, 0, 0, 0) !important;
+  border:unset !important;
+}
+.dropbtn:focus{
+  background-color:rgba(255, 0, 0, 0) !important;
+  border:unset !important;
+  box-shadow:unset !important;
+}
 
 
 
@@ -339,11 +348,12 @@
   
   background-color: #3d3d3d;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgb(41, 41, 41);
+  box-shadow: 0px 8px 16px 0px rgba(37, 37, 37, 0.747);
   z-index: 1;
   transition: display 0.5s;
   transition-duration: 0.5s;
   transition-delay: 0.5s;
+  margin-top:15px !important;
 }
 
 .dropdown-content a {
