@@ -1,6 +1,12 @@
 $(document).ready(function() {
     // console.log("worked")
+    
    
+   
+
+
+
+
     
     // $('.carousel').carousel({
     //     interval: 3000

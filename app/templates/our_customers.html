@@ -3,92 +3,177 @@
 {% block app_content %}
 
 <body>
-    <div class="container-fluid">
-        <div class="container">
+    <div class="p-0 container-fluid">
+        <div class="py-2 container">
            
     
-            <div class="row">
+            <div class="row ml-1 ">
 
-                <div class="col-4 pr-0">
-                    <div class="gal-item">
-                        <figure class="p-0 col">
-                            <a onclick="myFunction(this)"class="black-text">
-                                <!-- <div class="toi "> -->
-                                    <img alt="picture" src="{{url_for('static', filename='media/case1.jpg') }}"class="img-fluid gal-img">
-                                    
-                                    <h3 class="gal-title my-3">Snowy Vet, Cooma </h3>
-                                   
-                                    <div class="hide_me hidden flex-container">
-                                        <div class="row-s row"> 
-                                            <div class="flex-item">
-                                                <h3>12.48kW solar/ battery storage system</h3>
-                                            </div>
-                                            <div class="flex-item">
-                                                <p> 
-                                                    We are proud to have installed the first 4 Tesla Powerwall installation in Australia.<br> esigned to cover up to 95% of the Snowy Vets power requirements, this system provides backup power to essential equipment in the event
-                                                    of a power outage including solar charging while in backup mode. The monitoring system provides real time data for energy production, consumption and storage levels.
-                                                </p>
-                                            </div>
+                <div class="m col-sm-12 col-md-6 p-2">
+                   
+                    <a onclick="myFunction(this)" class="black-text">
+                        <img alt="picture" src="{{url_for('static', filename='media/b7.jpg') }}" class="img-fluid gal-img" />
+                        <h3 class="text-center gal-title my-3">Canberra Southern Cross Club</h3>
+                        <div class="box flex-container">
+                            <div class="row-s row"> 
+                                <div class="flex-item">
+                                    <h3>100kWp & 60kWp systems </h3>
+                                </div>
+                                <div class="flex-item">
+                                    <p> 
+                                        Yass Valley Solar has recently completed a 100kW solar system at Woden and a 60kW solar system at Jamison for the 
+                                        Canberra Southern Cross Club. The 100kW system is comprised of 400 x 250W solar modules, 5 x 20kW SMA inverters 
+                                        and a state-of-the-art grid protection and monitoring system. These systems will provide ongoing electricity
+                                         savings and emissions reductions to the Club
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                           
+                            
+                        
+                      
+                    
+                </div>
+
+                <div class="m col-sm-12 col-md-6 p-2">
+                  
+                       
+                            <a onclick="myFunction(this)" class="black-text">
+                                <img alt="picture" src="{{url_for('static', filename='media/b6.jpg') }}" class="img-fluid gal-img" />
+                                <h3 class="text-center gal-title my-3">Snowy Vet, Cooma</h3>
+                                <div class="box flex-container">
+                                    <div class="row-s row"> 
+                                        <div class="flex-item">
+                                            <h3>12.48kW solar/ battery storage system</h3>
+                                        </div>
+                                        <div class="flex-item">
+                                            <p> 
+                                                We are proud to have installed the first 4 Tesla Powerwall installation in Australia.
+                                                esigned to cover up to 95% of the Snowy Vets power requirements, this system provides backup power to
+                                                 essential equipment in the event of a power outage including solar charging while in backup mode.
+                                                  The monitoring system provides real time data for energy production, consumption and storage levels.
+                                            </p>
                                         </div>
                                     </div>
+                                </div>
                             </a>
-                            
-                        </figure>
                       
-                    </div>
                 </div>
-
-                <div class="col-4 pr-0">
-                    <div class="gal-item">
-                        <figure class="p-0 col">
+                <div class="m col-sm-12 col-md-6 p-2">
+                  
+                       
                             <a onclick="myFunction(this)" class="black-text">
-                                <img alt="picture" src="{{url_for('static', filename='media/case2.jpg') }}" class="img-fluid gal-img" />
-                                <h3 class="gal-title my-3">100kWp & 60kWp systems Canberra Southern Cross Club</h3>
-                            
+                                <!-- start -->
+                                <div style="max-height:400px"id="carouselExampleIndicators" class="img-fluid gal-img carousel slide"data-interval="3000" data-ride="carousel">
+                                    
+                                    <div class="carousel-inner">
+                                      <div class="carousel-item active">
+                                        <!-- img-fluid gal-img -->
+                                        <img class="d-block w-100" src="{{url_for('static', filename='media/b5.jpg') }}" alt="First slide">
+                                      </div>
+                                      <div class="carousel-item">
+                                        <img class="d-block w-100" src="{{url_for('static', filename='media/b4.jpg') }}" alt="Second slide">
+                                      </div>
+                                     
+                                    </div>
+                                  
+                                  </div>
+                                <!-- finish -->
+                               
+                                <h3 class="text-center gal-title my-3"> Martins Fertilizers</h3>
+                                <div class="box flex-container">
+                                    <div class="row-s row"> 
+                                        <div class="flex-item">
+                                            <h3>100kWP</h3>
+                                        </div>
+                                        <div class="flex-item">
+                                            <p> 
+                                                The 100kW photovoltaic system at Martins Fertilizers in Yass NSW was designed around the clients load profile
+                                                 following an extensive analysis of their electricity consumption. Due to the almost entire daytime operation
+                                                  of the business the system is on track to provide 75% of their total electricity requirements. Using 400 x
+                                                   250-watt solar modules and 7 x 15kW inverters the system is a fantastic example of solar working for business.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
                             </a>
-                        </figure>
-                    </div>
+                   
+                
                 </div>
-                <div class="col-4 pr-0">
-                    <div class="gal-item">
-                        <figure class="p-0 col">
-                            <a onclick="myFunction(this)" class="black-text">
-                                <img alt="picture" src="{{url_for('static', filename='media/case4.jpg') }}" class="img-fluid gal-img" />
-                                <h3 class="gal-title my-3">100kWP Martins Fertilizers</h3>
-                            </a>
-                        </figure>
-                    </div>
-                </div>
-                <div class="col-4">
-                    <div class="gal-item">
-                        <figure class="col">
+                <div class="m col-sm-12 col-md-6 p-2">
+                  
+                       
                             <a onclick="myFunction(this)"class="black-text">
-                                <img alt="picture" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(104).jpg" class="img-fluid" />
-                                <h3 class="text-center my-3">Photo title</h3>
+                                <img alt="picture" src="{{url_for('static', filename='media/b3.jpg') }}" class="gal-img img-fluid" />
+                                <h3 class="gal-title text-center my-3">Bird Munchies</h3>
+                                <div class="box flex-container">
+                                    <div class="row-s row"> 
+                                        <div class="flex-item">
+                                            <h3>70kWp</h3>
+                                        </div>
+                                        <div class="flex-item">
+                                            <p> 
+                                                Located in Queanbeyan, NSW this system provides power to a large manufacturing company. With the increase
+                                                 of electricity costs not only does this system provide the greater part of Bird Munchies electricity
+                                                  requirement but it also enables a reduction of the use of natural gas powered equipment.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
                             </a>
-                        </figure>
-                    </div>
+                     
                 </div>
-                <div class="col-4">
-                    <div class="gal-item">
-                        <figure class="col">
-                            <div class="gal-item"></div>
+                <div class="m col-sm-12 col-md-6 p-2">
+                  
+                       
+                          
                             <a onclick="myFunction(this)"class="black-text">
-                                <img alt="picture" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(104).jpg" class="img-fluid" />
-                                <h3 class="text-center my-3">Photo title</h3>
+                                <img alt="picture" src="{{url_for('static', filename='media/b2.jpg') }}" class=" gal-img img-fluid" />
+                                <h3 class="gal-title text-center my-3">Yass Valley Aged Care</h3>
+                                <div class="box flex-container">
+                                    <div class="row-s row"> 
+                                        <div class="flex-item">
+                                            <h3>100kWP</h3>
+                                        </div>
+                                        <div class="flex-item">
+                                            <p> 
+                                                This system is comprised of 400 x 250-watt Yingli panels and is located on the rural town of Yass. The remote 
+                                                monitoring system coupled with the irradiance, temperature and wind sensors not only provides valuable data but 
+                                                also helps to provide the highest performance availability possible through constant monitoring of the system. The 
+                                                install took less than a month to complete and CEO Christine Graffiti is extremely impressed.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
                             </a>
-                        </figure>
-                    </div>
+                      
                 </div>
-                <div class="col-4">
-                    <div class="gal-item">
-                        <figure class="col">
+                <div class="m col-sm-12 col-md-6 p-2">
+                  
+                       
                             <a onclick="myFunction(this)"class="black-text">
-                                <img alt="picture" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(104).jpg" class="img-fluid" />
-                                <h3 class="text-center my-3">Photo title</h3>
+                                <img alt="picture" src="{{url_for('static', filename='media/b1.jpg') }}" class="gal-img img-fluid" />
+                                <h3 class="gal-title text-center my-3">Yass Soldiers Club</h3>
+                                <div class="box flex-container">
+                                    <div class="row-s row"> 
+                                        <div class="flex-item">
+                                            <h3>100kWP</h3>
+                                        </div>
+                                        <div class="flex-item">
+                                            <p> 
+                                                Yass Valley Solar also completed a 100KW system in Yass NSW at the Soldiers Club. Comprised of 432 x 250-watt solar
+                                                 panels it produced an outstanding 862 kW hours of power in a single day during December and January. The General 
+                                                 Manager of the club is very happy with the system, as he told Yass Tribune Newspaper that he had received a number
+                                                  of positive comments, including feedback from an external consultant who said the system was one of the best he had 
+                                                  ever seen.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
                             </a>
-                        </figure>
-                    </div>
+                     
                 </div>
             </div>
                     
@@ -97,17 +182,20 @@
         </div>
     </div>
 <script>
+        // var selection = $(elmnt).children(".box")
+        
         function myFunction(elmnt) {
-            $(elmnt).children(".hidden").toggleClass("hide_me");
-            
+            $(elmnt).children(".box").toggleClass("box--show");
+            // $(".box").mouseleave(function() {
+            // // alert("left")
+            // $(elmnt).children(".box").toggleClass("box--show");
+
+        
         }
-        </script>
-  <script>
-        // MDB Lightbox Init
-    $(function () {
-    $("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
-    });
-  </script>
+       
+        
+</script>
+
 </body>
 
 {% include 'footer.html' %}

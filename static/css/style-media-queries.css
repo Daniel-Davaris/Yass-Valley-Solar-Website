@@ -358,6 +358,12 @@
     .nav-container{
         background-color: rgb(37, 37, 37);
     }
+    .flex-item > h3{
+        padding-top:2px !important;
+    }
+    .flex-item > p{
+        padding-top:2px !important;
+    }
 } 
 @media (max-width:767px) {
     .r{
@@ -453,6 +459,7 @@
         margin: auto;    
         display: block;
     }
+    
 }
 
 
@@ -844,6 +851,7 @@
         padding-bottom:0px !important;
         
     }
+   
 } 
 @media (max-width:400px) {
     .r{
