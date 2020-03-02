@@ -85,6 +85,8 @@ def load_user(id):
 class Post(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     body = db.Column(db.String(140))
+    linkname = db.Column(db.String(140))
+    link = db.Column(db.String(140))
     now = datetime.now()
     month = now.strftime("%m")
     timestamp = db.Column(db.Date, index=True, default=date.today())

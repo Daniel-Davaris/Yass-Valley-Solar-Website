@@ -110,6 +110,14 @@ def our_customers():
    
     return render_template('our_customers.html', title='Our Customers')
 
+
+@app.route('/testimonials')
+# @login_required
+def testimonials():
+    page = request.args.get('page', 1, type=int)
+   
+    return render_template('testimonials.html', title='Testimonials')
+
 # logic for the site login ... 
 
 
@@ -118,7 +126,7 @@ def our_customers():
 def my_posts():
     form = PostForm()
     if form.validate_on_submit():
-        post = Post(body=form.post.data, author=current_user)
+        post = Post(body=form.post.data, author=current_user, linkname=form.linkname.data, link=form.link.data)
         db.session.add(post)
         db.session.commit()
         flash('Your post is now live!')

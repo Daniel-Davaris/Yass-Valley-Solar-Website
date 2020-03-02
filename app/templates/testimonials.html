@@ -1,0 +1,115 @@
+{% extends "base.html" %} 
+{% import "bootstrap/wtf.html" as wtf %} 
+{% block app_content %}
+<style>
+    body{
+        overflow-y:visible !important;
+    }
+    blockquote{
+        font-size:20px;
+        
+    }
+    img {
+        image-orientation: from-image;
+    }
+</style>
+<div style="min-height:100vh;" class="container-fluid">
+       
+    <div style="border:1px solid rgb(255, 255, 255); padding-left:5vw;padding-right:5vw;padding-top:20vh;padding-bottom:20vh;"class="container">
+        <i>
+        <h1 class="display-3 pb-5"style="text-align:center "> Own Your Energy</h1>
+        <hr>
+        <div class="row">
+            <div class="col">
+            <blockquote style="text-align:left">
+                "The guys are still here working on the panels. They are very polite and efficient. Very happy with your customer service. Thanks again,"
+            <br>&nbsp; ~Jared, Feb 2020
+            </blockquote>
+            </div>
+        </div>
+        <br>
+        <hr>
+        <div class="row">
+            <div class="col">
+                <blockquote>
+                    "We are very happy with the install process.  The team that came out were polite, thorough and kept me in the loop of what was happening
+                    at all time.  The end product is a neat job and seems to be functioning well."
+                    <br>&nbsp;~ Brent, Feb 2020
+                </blockquote>
+            </div>
+            <div class="col">
+                <img style="max-width:450px;padding-left:50px;"class="" src="{{url_for('static', filename='media/resi.jpeg') }}" />
+            </div>
+        </div>
+        <br>
+        <hr>
+       
+      
+        <div style="border:2px solid black;"class="row">
+            <div class="col py-4 text-center">
+                <blockquote>
+                    "The job was done very professionally and pleasantly - our compliments!"
+                    <br>&nbsp;~Sarah Feb, 2020
+
+                </blockquote>
+            </col>
+            </div>
+        </div>
+        <br>
+        <hr>
+        <div class="row">
+            <div class="col">
+                <img style="image-orientation: from-image;max-width:400px;"class="" src="{{url_for('static', filename='media/spec4.jpg') }}" />
+            </div>
+            <div class="col pt-4 ">
+                <blockquote style="text-align:right">
+                    "The installation was seamless and the system has been perfect. It was fabulous working with Yass Valley Solar and I
+                    am delighted to have a quality Yingli Solar solution that not only facilitates the production of our solar energy 
+                    but also helps secure our future energy."
+                    <br>&nbsp;~ Rowena Abbey
+                </blockquote>
+            </div>
+        </div>
+        <br>
+        <hr>
+        <div class="row">
+            <div class="col">
+                <blockquote>
+                "Thankyou for the prompt install, the guys you sent where very professional, polite and very well organised ….. Great job from them.
+                    Especially as it was a horrible day at over 35 degrees."
+                    <br>&nbsp;~Jenny Dec 2019
+                </blockquote>
+            </div>
+        </div>
+        <br>
+        <hr>
+        <div class="row">
+            <div class="col">
+                <blockquote>
+                    "John and I would like to thank all the members of your company for their kindness and high level of professionalism in all stages of our 
+                    solar panel installation.""
+                    <br>&nbsp;~Rosemary, Jan 2020
+                </blockquote>
+            </div>
+            <div class="col">
+                <img style="image-orientation: flip !important; max-width:400px;"class="" src="{{url_for('static', filename='media/spec5.jpg') }}" />
+            </div>
+        </div>
+        <br>
+        <hr>
+        <div class="row">
+            <div class="col">
+                <blockquote>
+                    "Everyone has been very professional .. went smoothly, with the guys being very hard-working, helpful, polite and also leaving an impressive
+                    tidy jobsite… We appreciate everyone’s efforts. ""
+                    <br>&nbsp;~Katrina, Nov 2019
+
+                </blockquote>
+            </div>
+        </div>
+    </i>
+    </div>
+</div>
+
+{% include 'footer.html' %} 
+{% endblock %}

@@ -67,6 +67,8 @@ class EditProfileForm(FlaskForm):
 
 class PostForm(FlaskForm):
     post = TextAreaField('Say something', validators=[DataRequired()])
+    linkname = TextAreaField('Name of Link ( optional )')
+    link = TextAreaField('URL ( including https:// ')
     submit = SubmitField('Submit')
     
 

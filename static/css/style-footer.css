@@ -46,7 +46,7 @@ footer{
 }
 .my-btn:hover{
     color:rgb(255, 255, 255);
-    background-color:rgb(172, 172, 172);
+    /* background-color:rgb(177, 143, 143); */
     text-decoration:none;
 }
 .social{
