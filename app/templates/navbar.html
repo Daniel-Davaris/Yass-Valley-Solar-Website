@@ -32,14 +32,14 @@
                     <a class="nav-link" id="side-a" href="{{ url_for('off_grid') }}">Off Grid </a>
                  
                 </li>
-                <li class="nav-item dropdown">
+                <li class="hide nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Services
                     </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="{{ url_for('monitoring') }}">Monitoring Options</a>
+                    <div class="hide dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="hide dropdown-item" href="{{ url_for('monitoring') }}">Monitoring Options</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="{{ url_for('solar_systems') }}">Our Services</a>
+                        <a class="hide dropdown-item" href="{{ url_for('solar_systems') }}">Our Services</a>
                     </div>
                 </li>
                 <!-- <li class="hide nav-item">
@@ -53,13 +53,13 @@
                     <a class="nav-link" id="side-a" href="{{ url_for('blog') }}">Blog</a>
                     
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <li class="hide nav-item dropdown">
+                    <a class="hide nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Our Customers
                     </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="{{ url_for('testimonials') }}">Testimonials</a>
-                        <a class="dropdown-item" href="{{ url_for('our_customers') }}">Job Showcase</a>
+                    <div class=" hide dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="hide dropdown-item" href="{{ url_for('testimonials') }}">Testimonials</a>
+                        <a class="hide dropdown-item" href="{{ url_for('our_customers') }}">Job Showcase</a>
                         <!-- <div class="dropdown-divider"></div> -->
                         <!-- <a class="dropdown-item" href="#">Something else here</a> -->
                     </div>
@@ -160,9 +160,11 @@
                     <a id="side-a" href="{{ url_for('blog') }}">Blog</a>
                 </li>
                 <li>
-                    <a id="side-a" href="{{ url_for('our_customers') }}">Our Customers</a>
+                    <a id="side-a" href="{{ url_for('testimonials') }}">Testimonials</a>
                 </li>
-                
+                <li>
+                    <a id="side-a" href="{{ url_for('our_customers') }}">Job Showcase</a>
+                </li>
                 <li>
                     <a id="side-a" href="{{ url_for('contact_us') }}">Contact Us </a>
                 </li>
