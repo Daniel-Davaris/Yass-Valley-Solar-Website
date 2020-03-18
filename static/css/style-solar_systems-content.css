@@ -508,6 +508,7 @@ li.tick3 {
     margin-top:10px !important;
     color:black;
     padding-left:35%;
+    max-width:487px;
     
 }
 
@@ -519,7 +520,7 @@ li.tick3 {
     transition: 0.3s;
     margin-top:10px !important;
     color:black;
-    padding-left:30%;
+    padding-left:35%;
     
 }
 .tick-btn:hover{
@@ -560,7 +561,8 @@ li.tick3 {
     width: 100%;
     height: auto;
     max-width: 100%;
-    
+    box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.164);
+}
     
 }
 
@@ -627,7 +629,7 @@ li.tick3 {
     color:white;
 }
 .insi{
-    width:200px;
+    width:400px;
     float:right;
 }
 
@@ -789,10 +791,16 @@ b{
 }
 
 .add-shadow{
-    -webkit-box-shadow: 10px 10px 45px -15px rgba(128,128,128,1);
-    -moz-box-shadow: 10px 10px 45px -15px rgba(128,128,128,1);
-    box-shadow: 10px 10px 45px -15px rgba(128,128,128,1);
+    /* -webkit-box-shadow: 10px 10px 45px -15px rgba(128, 128, 128, 0.445);
+    -moz-box-shadow: 10px 10px 45px -15px rgba(128, 128, 128, 0.418);
+    box-shadow: 0px 0px 5px 5px rgb(0, 0, 0); */
     /* max-width:400px; */
-    min-width:300px;
+    /* min-width:300px; */
     /* min-height:250px;  */
+    border:1px solid rgb(173, 173, 173);
+}
+
+.card-text{
+    padding-left:5px;
+    font-size:14px;
 }
