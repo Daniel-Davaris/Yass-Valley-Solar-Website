@@ -389,7 +389,7 @@
         document.getElementById("sub").innerHTML =  "<div id='cover'>"+"<video playsinline autoplay muted loop id='cover myVideo'>"+"<source src="+"'{{url_for('static', filename='media/video/base-c.mp4') }}'"+"type='video/mp4'>"+" </video>"+"</div>";
     }
     function call_to_small() {
-        document.getElementById("sub").innerHTML = "<img src='{{url_for('static', filename='media/e.jpg') }}' "+"class='d-block w-100'"+"alt='img1'>";
+        document.getElementById("sub").innerHTML = "<img src='{{url_for('static', filename='media/e.jpg') }}' "+"class='smaller_img'"+"alt='img1'>";
     }
 
     if ($(window).width() <= 760) {
@@ -397,7 +397,7 @@
     } else {
         call_to_big()
     }
-
+    
 </script>
 
 

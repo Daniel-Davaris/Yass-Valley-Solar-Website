@@ -334,3 +334,12 @@
 #sub{
     max-height:100vh !important;
 }
+
+.smaller_img{
+
+    /* transform: scaleX(2) !important;
+    transform: scaleY(2) !important; */
+    height:100vh !important;
+    width:100vw !important;
+    transform: scaleX(2.5) !important;
+}
