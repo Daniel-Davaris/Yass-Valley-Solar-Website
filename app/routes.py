@@ -15,7 +15,7 @@ from flask_mail import Mail, Message
 
 # from .emails import email_activation
 
-   
+
 
 @app.route('/', methods=['GET', 'POST'])
 @app.route('/home')

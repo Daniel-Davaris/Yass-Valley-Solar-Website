@@ -23,19 +23,12 @@
                             <div class="carousel-inner">
 
                     <!-- ------------------------------------------------ -->
-                                <div class="carousel-item active">
-                                  
-                       
-                                    <!-- <img src="{{url_for('static', filename='media/e.jpg') }}" class="d-block w-100" alt="img1"> -->
+                                <div class="carousel-item active " >
+                            
                                     
-                                    <div id="cover">
-                                    <video playsinline autoplay muted loop id="cover myVideo">
-                                        <source src="{{url_for('static', filename='media/video/base-c.mp4') }}" type="video/mp4">
-                                        
-                                      Your browser does not support the video tag.
-                                      </video>
-                                   
-                                     </div>
+                                    <div class="subs" id="sub"></div>
+                                  
+                                  
                                     <div class="carousel-caption">
                                         <div class="container">
                                                 <div class="slider-con row align-items-center">
@@ -390,6 +383,22 @@
     </ul>
     
 </div>
+
+<script>
+    function call_to_big() {
+        document.getElementById("sub").innerHTML =  "<div id='cover'>"+"<video playsinline autoplay muted loop id='cover myVideo'>"+"<source src="+"'{{url_for('static', filename='media/video/base-c.mp4') }}'"+"type='video/mp4'>"+" </video>"+"</div>";
+    }
+    function call_to_small() {
+        document.getElementById("sub").innerHTML = "<img src='{{url_for('static', filename='media/e.jpg') }}' "+"class='d-block w-100'"+"alt='img1'>";
+    }
+
+    if ($(window).width() <= 760) {
+        call_to_small()
+    } else {
+        call_to_big()
+    }
+
+</script>
 
 
 {% endblock %}
