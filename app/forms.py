@@ -73,9 +73,13 @@ class PostForm(FlaskForm):
     
 
 
+
+
+
 class ContactForm(Form):
-    name = TextField("Name")
-    email = TextField("Email")
-    subject = TextField("Subject")
-    message = TextAreaField("Message")
-    submit = SubmitField("Send")
+  name = TextField("Name")
+  email = TextField("Email")
+  subject = TextField("Subject")
+  message = TextAreaField("Message")
+  submit = SubmitField("Send")
+

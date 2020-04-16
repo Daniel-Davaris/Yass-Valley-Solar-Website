@@ -4,10 +4,13 @@ from flask_login import login_user, logout_user, current_user, login_required
 from werkzeug.urls import url_parse
 from app import app, db
 from app.forms import LoginForm, RegistrationForm, EditProfileForm, PostForm, \
-    ResetPasswordRequestForm, ResetPasswordForm
+    ResetPasswordRequestForm, ResetPasswordForm, ContactForm    
 from app.models import User, Post
 
 from flask_mail import Mail, Message
+
+
+
 
 #instead of top one 
 # from app.forms import LoginForm, RegistrationForm, EditProfileForm, PostForm, \
@@ -287,3 +290,26 @@ def unfollow(username):
     db.session.commit()
     flash('You are not following {}.'.format(username))
     return redirect(url_for('user', username=username))
+
+@app.route('/off_grid_form', methods=['GET', 'POST'])
+def off_grid_form():
+    form = ContactForm()
+    if request.method == 'POST':
+        if form.validate() == False:
+            flash("ohh no")
+            flash('All fields are required.')
+            print("failed")
+            return render_template('off_grid_form.html', form=form)
+        else:
+            msg = Message(form.subject.data, sender='danieldavaris@outlook.com.au', recipients=['danieldavaris@outlook.com.au'])
+            msg.body = """
+            From: %s &lt;%s&gt;
+            %s
+            """ % (form.name.data, form.email.data, form.message.data)
+            mail.send(msg)
+ 
+            return render_template('off_grid_form.html', success=True)
+
+    elif request.method == 'GET':
+        return render_template('off_grid_form.html', form=form)
+

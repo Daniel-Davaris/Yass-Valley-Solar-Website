@@ -1,4 +1,6 @@
 {
-    "python.pythonPath": "C:\\Users\\danie\\Anaconda3\\envs\\YVS_website_ENV\\python.exe"
+    "python.pythonPath": "/Users/yassvalleysolar/opt/anaconda3/envs/yvs/bin/python",
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true
     
 }
